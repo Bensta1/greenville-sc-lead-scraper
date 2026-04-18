@@ -1,0 +1,158 @@
+import csv
+import os
+
+INPUT_FILE = "1.csv"
+
+OUTPUT_ALL = "Cleaned_ALL.csv"
+OUTPUT_WIRELESS = "Jarvis_Ready_Wireless.csv"
+OUTPUT_RESKIP = "No_Wireless_Reskip.csv"
+
+FINAL_HEADERS = [
+    "associated_property_address_full",
+    "first_name",
+    "last_name",
+    "middle_initial",
+    "primary_mailing_address",
+    "primary_mailing_city",
+    "primary_mailing_state",
+    "primary_mailing_zip",
+    "contact_flags",
+    "email_address_1",
+    "email_address_2",
+    "email_address_3",
+    "PHONE",
+    "PHONE 2",
+    "PHONE 3",
+    "ADDRESS",
+    "CITY",
+    "STATE",
+    "POSTAL CODE",
+    "COUNTY",
+    "APN",
+    "SIZE"
+]
+
+
+def clean_text(value):
+    if value is None:
+        return ""
+    return str(value).strip()
+
+
+def excel_safe_text(value):
+    value = clean_text(value)
+    if not value:
+        return ""
+    return f'="{value}"'
+
+
+def is_wireless(phone_type):
+    pt = clean_text(phone_type).lower()
+    return "wireless" in pt or "mobile" in pt or "cell" in pt
+
+
+def get_wireless_numbers(row):
+    numbers = []
+
+    phone_pairs = [
+        ("phone_1", "phone_1_type"),
+        ("phone_2", "phone_2_type"),
+        ("phone_3", "phone_3_type"),
+    ]
+
+    seen = set()
+
+    for phone_col, type_col in phone_pairs:
+        phone = clean_text(row.get(phone_col, ""))
+        phone_type = clean_text(row.get(type_col, ""))
+
+        if not phone:
+            continue
+
+        if is_wireless(phone_type):
+            if phone not in seen:
+                seen.add(phone)
+                numbers.append(phone)
+
+    return numbers[:3]
+
+
+def build_output_row(row):
+    wireless_numbers = get_wireless_numbers(row)
+
+    output = {
+        "associated_property_address_full": clean_text(row.get("associated_property_address_full", "")),
+        "first_name": clean_text(row.get("first_name", "")),
+        "last_name": clean_text(row.get("last_name", "")),
+        "middle_initial": clean_text(row.get("middle_initial", "")),
+        "primary_mailing_address": clean_text(row.get("primary_mailing_address", "")),
+        "primary_mailing_city": clean_text(row.get("primary_mailing_city", "")),
+        "primary_mailing_state": clean_text(row.get("primary_mailing_state", "")),
+        "primary_mailing_zip": clean_text(row.get("primary_mailing_zip", "")),
+        "contact_flags": clean_text(row.get("contact_flags", "")),
+        "email_address_1": clean_text(row.get("email_address_1", "")),
+        "email_address_2": clean_text(row.get("email_address_2", "")),
+        "email_address_3": clean_text(row.get("email_address_3", "")),
+        "PHONE": wireless_numbers[0] if len(wireless_numbers) > 0 else "",
+        "PHONE 2": wireless_numbers[1] if len(wireless_numbers) > 1 else "",
+        "PHONE 3": wireless_numbers[2] if len(wireless_numbers) > 2 else "",
+        "ADDRESS": clean_text(row.get("associated_property_address_line_1", "")),
+        "CITY": clean_text(row.get("associated_property_address_city", "")),
+        "STATE": clean_text(row.get("associated_property_address_state", "")),
+        "POSTAL CODE": clean_text(row.get("associated_property_address_zipcode", "")),
+        "COUNTY": clean_text(row.get("associated_property_address_county", "")),
+        "APN": excel_safe_text(row.get("associated_property_apn_parcel_id", "")),
+        "SIZE": clean_text(row.get("lot_acreage", "")),
+    }
+
+    return output
+
+
+def has_wireless(output_row):
+    return any([
+        clean_text(output_row.get("PHONE", "")),
+        clean_text(output_row.get("PHONE 2", "")),
+        clean_text(output_row.get("PHONE 3", "")),
+    ])
+
+
+def save_csv(filename, rows):
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=FINAL_HEADERS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def main():
+    if not os.path.exists(INPUT_FILE):
+        print(f"Input file not found: {INPUT_FILE}")
+        return
+
+    cleaned_all = []
+    wireless_ready = []
+    no_wireless_reskip = []
+
+    with open(INPUT_FILE, "r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+
+        for row in reader:
+            output_row = build_output_row(row)
+            cleaned_all.append(output_row)
+
+            if has_wireless(output_row):
+                wireless_ready.append(output_row)
+            else:
+                no_wireless_reskip.append(output_row)
+
+    save_csv(OUTPUT_ALL, cleaned_all)
+    save_csv(OUTPUT_WIRELESS, wireless_ready)
+    save_csv(OUTPUT_RESKIP, no_wireless_reskip)
+
+    print(f"Saved {len(cleaned_all)} rows to {OUTPUT_ALL}")
+    print(f"Saved {len(wireless_ready)} rows to {OUTPUT_WIRELESS}")
+    print(f"Saved {len(no_wireless_reskip)} rows to {OUTPUT_RESKIP}")
+    print("Done.")
+
+
+if __name__ == "__main__":
+    main()

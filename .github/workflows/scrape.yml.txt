@@ -1,4 +1,4 @@
-name: Greenville Lead Pipeline
+name: Greenville Lead Scraper
 
 on:
   workflow_dispatch:
@@ -7,10 +7,6 @@ on:
 
 permissions:
   contents: write
-
-concurrency:
-  group: greenville-leads
-  cancel-in-progress: true
 
 jobs:
   scrape:
@@ -30,7 +26,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 playwright
 
-      - name: Install Playwright Chromium
+      - name: Install Playwright browser
         run: |
           python -m playwright install chromium
 
@@ -42,18 +38,14 @@ jobs:
         run: |
           python probate_fetch.py
 
-      - name: Merge and score
+      - name: Merge and score leads
         run: |
           python merge_and_score.py
 
-      - name: Copy dashboard data
-        run: |
-          cp master_leads.json dashboard/master_leads.json
-
-      - name: Commit updated data files
+      - name: Commit updated lead files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add leads.csv probate_leads.csv master_leads.csv master_leads.json dashboard/master_leads.json
-          git diff --cached --quiet || git commit -m "Auto-update lead data"
+          git add leads.csv probate_leads.csv master_leads.csv master_leads.json
+          git diff --cached --quiet || git commit -m "Auto-update leads"
           git push
