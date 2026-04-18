@@ -1,6 +1,10 @@
 import csv
 import json
+import os
 from datetime import datetime, timezone
+
+
+MASTER_FILE = "master_leads.json"
 
 
 def load_csv(filename):
@@ -12,10 +16,22 @@ def load_csv(filename):
         return []
 
 
+def load_existing_master(filename=MASTER_FILE):
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except FileNotFoundError:
+        return {}
+    except json.JSONDecodeError:
+        print(f"{filename} is invalid JSON, starting fresh")
+        return {}
+
+
 def parse_amount(val):
     try:
-        return float(val.replace("$", "").replace(",", "").strip())
-    except:
+        return float(str(val).replace("$", "").replace(",", "").strip())
+    except Exception:
         return 0.0
 
 
@@ -25,17 +41,14 @@ def score_lead(record):
 
     amount = parse_amount(record.get("Amount", ""))
 
-    # Tax sale = base signal
     if record.get("Item"):
         score += 30
         tags.append("Tax Sale")
 
-    # High amount
     if amount >= 5000:
         score += 10
         tags.append("High Tax Amount")
 
-    # Business owner
     owner = record.get("Owner", "").lower()
     if any(x in owner for x in ["llc", "inc", "corp"]):
         score += 10
@@ -44,9 +57,50 @@ def score_lead(record):
     return score, tags
 
 
+def make_tax_key(row):
+    return f"TAX|{row.get('Parcel', '').strip()}"
+
+
+def make_probate_key(row):
+    owner = row.get("Owner", "").strip()
+    parcel = row.get("Parcel", "").strip()
+    if parcel:
+        return f"PROBATE|{parcel}"
+    return f"PROBATE|OWNER|{owner}"
+
+
+def build_existing_timestamp_lookup(existing_records):
+    lookup = {}
+    for record in existing_records:
+        tax_sale = record.get("tax_sale", "NO")
+        probate = record.get("probate", "NO")
+        parcel = str(record.get("parcel", "")).strip()
+        owner = str(record.get("owner", "")).strip()
+        generated_at = record.get("generated_at")
+
+        if tax_sale == "YES":
+            key = f"TAX|{parcel}"
+            if generated_at:
+                lookup[key] = generated_at
+
+        elif probate == "YES":
+            if parcel:
+                key = f"PROBATE|{parcel}"
+            else:
+                key = f"PROBATE|OWNER|{owner}"
+            if generated_at:
+                lookup[key] = generated_at
+
+    return lookup
+
+
 def build_master():
     tax_leads = load_csv("leads.csv")
     probate_leads = load_csv("probate_leads.csv")
+
+    existing_master = load_existing_master()
+    existing_records = existing_master.get("records", [])
+    timestamp_lookup = build_existing_timestamp_lookup(existing_records)
 
     records = []
     run_timestamp = datetime.now(timezone.utc).isoformat()
@@ -54,6 +108,13 @@ def build_master():
     # --- TAX LEADS ---
     for row in tax_leads:
         score, tags = score_lead(row)
+        record_key = make_tax_key(row)
+
+        generated_at = (
+            timestamp_lookup.get(record_key)
+            or row.get("generated_at")
+            or run_timestamp
+        )
 
         records.append({
             "owner": row.get("Owner", ""),
@@ -65,11 +126,14 @@ def build_master():
             "probate": "NO",
             "score": score,
             "tags": tags,
-            "generated_at": row.get("generated_at") or run_timestamp
+            "generated_at": generated_at
         })
 
     # --- PROBATE LEADS ---
     for row in probate_leads:
+        record_key = make_probate_key(row)
+        generated_at = timestamp_lookup.get(record_key) or run_timestamp
+
         records.append({
             "owner": row.get("Owner", ""),
             "parcel": row.get("Parcel", ""),
@@ -80,7 +144,7 @@ def build_master():
             "probate": "YES",
             "score": 40,
             "tags": ["Probate"],
-            "generated_at": run_timestamp
+            "generated_at": generated_at
         })
 
     # --- SUMMARY ---
@@ -100,7 +164,7 @@ def build_master():
         "records": records
     }
 
-    with open("master_leads.json", "w", encoding="utf-8") as f:
+    with open(MASTER_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
 
     print("master_leads.json updated")
