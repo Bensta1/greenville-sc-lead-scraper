@@ -74,7 +74,8 @@ function applyFilters(scrollTop = false) {
         filtered = filtered.filter(record =>
             record.tax_sale === "YES" && record.probate === "YES"
      } else if (filterType === "new_since_yesterday") {
-    filtered = filtered.filter(record => isNewSinceYesterday(record));                              
+    filtered = [];
+}                             
         );
     } else if (filterType === "tax") {
         filtered = filtered.filter(record => record.tax_sale === "YES");
