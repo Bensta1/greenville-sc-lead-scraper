@@ -13,10 +13,10 @@ async function loadDashboardData(showAlertOnError = true) {
         rawJson = data;
         allRecords = data.records || [];
 
-        renderStats(data);
-        renderLastUpdated(data.generated_at);
-        renderTop25NewLeads(allRecords);
-        applyFilters(false);
+ renderStats(data);
+renderLastUpdated(data.generated_at);
+renderTop25NewLeads(allRecords);
+applyFilters(false);
     } catch (error) {
         console.error("Error loading JSON:", error);
         if (showAlertOnError) {
