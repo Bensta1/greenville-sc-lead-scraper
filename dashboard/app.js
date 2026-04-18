@@ -15,7 +15,6 @@ async function loadDashboardData(showAlertOnError = true) {
 
  renderStats(data);
 renderLastUpdated(data.generated_at);
-renderTop25NewLeads(allRecords);
 applyFilters(false);
     } catch (error) {
         console.error("Error loading JSON:", error);
@@ -32,10 +31,7 @@ function renderStats(data) {
     document.getElementById("stackedLeads").textContent = data.stacked_leads || 0;
     document.getElementById("highScoreLeads").textContent = data.high_score_leads || 0;
 
-    const newCount = allRecords.filter(record => isNewSinceYesterday(record)).length;
-    const el = document.getElementById("newSinceYesterdayCount");
-    if (el) el.textContent = newCount;
-}
+   }
 }
 
 function renderLastUpdated(value) {
