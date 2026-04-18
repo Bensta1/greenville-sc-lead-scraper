@@ -1,20 +1,27 @@
+import csv
+from datetime import datetime, timezone
+
 import requests
 from bs4 import BeautifulSoup
-import csv
 
 URL = "https://www.greenvillecounty.org/appsas400/taxsale/"
 
-def scrape_tax_sale():
+
+def get_run_timestamp() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def scrape_tax_sale() -> list[dict]:
     print("Getting tax sale leads...")
 
-    response = requests.get(URL)
-
-    if response.status_code != 200:
-        print("Failed to load page")
+    try:
+        response = requests.get(URL, timeout=30)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"Failed to load page: {exc}")
         return []
 
     soup = BeautifulSoup(response.text, "html.parser")
-
     table = soup.find("table")
 
     if not table:
@@ -23,6 +30,7 @@ def scrape_tax_sale():
 
     rows = table.find_all("tr")
     leads = []
+    run_timestamp = get_run_timestamp()
 
     for row in rows:
         cols = row.find_all("td")
@@ -35,28 +43,34 @@ def scrape_tax_sale():
         owner = cols[2].get_text(strip=True)
         amount = cols[3].get_text(strip=True)
 
-        leads.append({
-            "Item": item,
-            "Owner": owner,
-            "Parcel": parcel,
-            "Amount": amount
-        })
+        leads.append(
+            {
+                "generated_at": run_timestamp,
+                "Item": item,
+                "Owner": owner,
+                "Parcel": parcel,
+                "Amount": amount,
+            }
+        )
 
     print(f"Found {len(leads)} leads")
     return leads
 
 
-def save_csv(leads):
+def save_csv(leads: list[dict], filename: str = "leads.csv") -> None:
     if not leads:
         print("No leads to save")
         return
 
-    with open("leads.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=leads[0].keys())
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=["generated_at", "Item", "Owner", "Parcel", "Amount"],
+        )
         writer.writeheader()
         writer.writerows(leads)
 
-    print("Saved leads.csv")
+    print(f"Saved {filename}")
 
 
 if __name__ == "__main__":
