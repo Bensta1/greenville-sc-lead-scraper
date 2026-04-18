@@ -198,6 +198,41 @@ document.querySelectorAll(".quick-filter-btn").forEach(btn => {
 });
 
 document.getElementById("refreshBtn").addEventListener("click", () => {
+    function renderTop25NewLeads(records) {
+    const section = document.getElementById("top25NewSection");
+    const tbody = document.querySelector("#top25NewTable tbody");
+
+    if (!section || !tbody) return;
+
+    const newestBest = records
+        .filter(record => isNewSinceYesterday(record))
+        .sort((a, b) => {
+            const scoreDiff = Number(b.score || 0) - Number(a.score || 0);
+            if (scoreDiff !== 0) return scoreDiff;
+            return Number(b.amount_due_num || 0) - Number(a.amount_due_num || 0);
+        })
+        .slice(0, 25);
+
+    tbody.innerHTML = "";
+
+    newestBest.forEach((record, idx) => {
+        const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
+        const score = Number(record.score || 0);
+
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+            <td>${idx + 1}</td>
+            <td>${escapeHtml(record.owner || "")}</td>
+            <td>${escapeHtml(record.parcel || "")}</td>
+            <td>${escapeHtml(record.amount_due || "")}</td>
+            <td>${score}</td>
+            <td>${escapeHtml(tags)}</td>
+        `;
+        tbody.appendChild(tr);
+    });
+
+    section.style.display = newestBest.length ? "block" : "none";
+}
     loadDashboardData(true);
 });
 
