@@ -34,6 +34,10 @@ function renderStats(data) {
     const newCount = allRecords.filter(record => isNewSinceYesterday(record)).length;
 const el = document.getElementById("newSinceYesterdayCount");
 if (el) el.textContent = newCount;
+    const newCount = allRecords.filter(record => isNewSinceYesterday(record)).length;
+
+const el = document.getElementById("newSinceYesterdayCount");
+if (el) el.textContent = newCount;
 }
 
 function renderLastUpdated(value) {
