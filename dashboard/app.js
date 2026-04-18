@@ -237,6 +237,18 @@ document.getElementById("refreshBtn").addEventListener("click", () => {
 
     section.style.display = newestBest.length ? "block" : "none";
 }
+function isNewSinceYesterday(record) {
+    // Only count records that actually have their own timestamp
+    if (!record.generated_at) return false;
+
+    const dt = new Date(record.generated_at);
+    if (isNaN(dt.getTime())) return false;
+
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+
+    return dt >= yesterday;
+}                                                       
     loadDashboardData(true);
 });
 
