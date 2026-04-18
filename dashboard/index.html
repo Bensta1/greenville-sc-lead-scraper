@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenville Lead Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 Greenville Motivated Seller Dashboard</h1>
+
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="stat-label">Total Leads</div>
+                <div class="stat-value" id="totalLeads">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Tax Sale</div>
+                <div class="stat-value" id="taxLeads">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Probate</div>
+                <div class="stat-value" id="probateLeads">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Stacked</div>
+                <div class="stat-value" id="stackedLeads">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">High Score 70+</div>
+                <div class="stat-value" id="highScoreLeads">0</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search owner...">
+
+            <select id="filterType">
+                <option value="all">All Leads</option>
+                <option value="stacked">Stacked Distress</option>
+                <option value="tax">Tax Sale Only</option>
+                <option value="probate">Probate Only</option>
+                <option value="high">High Score (70+)</option>
+            </select>
+
+            <select id="sortType">
+                <option value="score_desc">Sort: Highest Score</option>
+                <option value="score_asc">Sort: Lowest Score</option>
+                <option value="owner_asc">Sort: Owner A-Z</option>
+                <option value="amount_desc">Sort: Highest Amount</option>
+            </select>
+        </div>
+
+        <div class="table-wrap">
+            <table id="leadsTable">
+                <thead>
+                    <tr>
+                        <th>Owner</th>
+                        <th>Tax Sale</th>
+                        <th>Probate</th>
+                        <th>Parcel</th>
+                        <th>Amount Due</th>
+                        <th>Case #</th>
+                        <th>Score</th>
+                        <th>Tags</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
