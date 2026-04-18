@@ -9,6 +9,21 @@ function isNewSinceYesterday(record) {
     if (isNaN(leadDate.getTime())) return false;
 
     const now = new Date();
+
+    // Create yesterday at midnight LOCAL time
+    const yesterday = new Date();
+    yesterday.setDate(now.getDate() - 1);
+    yesterday.setHours(0, 0, 0, 0);
+
+    // Convert leadDate to LOCAL timestamp
+    return leadDate.getTime() >= yesterday.getTime();
+}
+    if (!record.generated_at) return false;
+
+    const leadDate = new Date(record.generated_at);
+    if (isNaN(leadDate.getTime())) return false;
+
+    const now = new Date();
     const yesterday = new Date(now);
     yesterday.setDate(now.getDate() - 1);
     yesterday.setHours(0, 0, 0, 0);
