@@ -1,16 +1,28 @@
 let allRecords = [];
+let currentRows = [];
+let rawJson = null;
 
-fetch("master_leads.json")
-    .then(response => response.json())
-    .then(data => {
+async function loadDashboardData(showAlertOnError = true) {
+    try {
+        const response = await fetch("master_leads.json?ts=" + Date.now());
+        if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+        rawJson = data;
         allRecords = data.records || [];
+
         renderStats(data);
-        applyFilters();
-    })
-    .catch(error => {
+        renderLastUpdated(data.generated_at);
+        applyFilters(false);
+    } catch (error) {
         console.error("Error loading JSON:", error);
-        alert("Could not load master_leads.json");
-    });
+        if (showAlertOnError) {
+            alert("Could not load master_leads.json");
+        }
+    }
+}
 
 function renderStats(data) {
     document.getElementById("totalLeads").textContent = data.total_leads || 0;
@@ -20,7 +32,24 @@ function renderStats(data) {
     document.getElementById("highScoreLeads").textContent = data.high_score_leads || 0;
 }
 
-function applyFilters() {
+function renderLastUpdated(value) {
+    const el = document.getElementById("lastUpdated");
+
+    if (!value) {
+        el.textContent = "Last update: unknown";
+        return;
+    }
+
+    const dt = new Date(value);
+    if (isNaN(dt.getTime())) {
+        el.textContent = "Last update: " + value;
+        return;
+    }
+
+    el.textContent = "Last update: " + dt.toLocaleString();
+}
+
+function applyFilters(scrollTop = false) {
     const searchValue = document.getElementById("searchInput").value.toLowerCase().trim();
     const filterType = document.getElementById("filterType").value;
     const sortType = document.getElementById("sortType").value;
@@ -41,8 +70,25 @@ function applyFilters() {
         filtered = filtered.filter(record => record.tax_sale === "YES");
     } else if (filterType === "probate") {
         filtered = filtered.filter(record => record.probate === "YES");
-    } else if (filterType === "high") {
+    } else if (filterType === "high70") {
         filtered = filtered.filter(record => Number(record.score) >= 70);
+    } else if (filterType === "high80") {
+        filtered = filtered.filter(record => Number(record.score) >= 80);
+    } else if (filterType === "high90") {
+        filtered = filtered.filter(record => Number(record.score) >= 90);
+    } else if (filterType === "probate_high") {
+        filtered = filtered.filter(record =>
+            record.probate === "YES" && Number(record.score) >= 70
+        );
+    } else if (filterType === "tax_high") {
+        filtered = filtered.filter(record =>
+            record.tax_sale === "YES" && Number(record.score) >= 70
+        );
+    } else if (filterType === "business_high") {
+        filtered = filtered.filter(record => {
+            const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
+            return tags.toLowerCase().includes("business owner") && Number(record.score) >= 70;
+        });
     }
 
     if (sortType === "score_desc") {
@@ -55,7 +101,17 @@ function applyFilters() {
         filtered.sort((a, b) => Number(b.amount_due_num || 0) - Number(a.amount_due_num || 0));
     }
 
+    currentRows = filtered;
     renderTable(filtered);
+    renderResultsCount(filtered.length);
+
+    if (scrollTop) {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+}
+
+function renderResultsCount(count) {
+    document.getElementById("resultsCount").textContent = `Showing ${count} leads`;
 }
 
 function renderTable(records) {
@@ -75,7 +131,7 @@ function renderTable(records) {
             <td>${escapeHtml(record.parcel || "")}</td>
             <td>${escapeHtml(record.amount_due || "")}</td>
             <td>${escapeHtml(record.case_number || "")}</td>
-            <td class="${score >= 70 ? "high-score" : ""}">${score}</td>
+            <td class="${score >= 80 ? "high-score" : score >= 70 ? "medium-score" : ""}">${score}</td>
             <td>${escapeHtml(tags)}</td>
         `;
 
@@ -92,6 +148,69 @@ function escapeHtml(value) {
         .replaceAll("'", "&#039;");
 }
 
-document.getElementById("searchInput").addEventListener("input", applyFilters);
-document.getElementById("filterType").addEventListener("change", applyFilters);
-document.getElementById("sortType").addEventListener("change", applyFilters);
+function convertRowsToCsv(rows) {
+    const headers = ["owner", "tax_sale", "probate", "parcel", "amount_due", "case_number", "score", "tags"];
+    const lines = [headers.join(",")];
+
+    for (const row of rows) {
+        const tags = Array.isArray(row.tags) ? row.tags.join(" | ") : (row.tags || "");
+        const values = [
+            row.owner || "",
+            row.tax_sale || "",
+            row.probate || "",
+            row.parcel || "",
+            row.amount_due || "",
+            row.case_number || "",
+            row.score ?? "",
+            tags
+        ].map(v => `"${String(v).replaceAll('"', '""')}"`);
+
+        lines.push(values.join(","));
+    }
+
+    return lines.join("\n");
+}
+
+function downloadFile(filename, content, type) {
+    const blob = new Blob([content], { type });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    a.click();
+
+    URL.revokeObjectURL(url);
+}
+
+document.getElementById("searchInput").addEventListener("input", () => applyFilters(false));
+document.getElementById("filterType").addEventListener("change", () => applyFilters(true));
+document.getElementById("sortType").addEventListener("change", () => applyFilters(false));
+
+document.querySelectorAll(".quick-filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        document.getElementById("filterType").value = btn.dataset.filter;
+        applyFilters(true);
+    });
+});
+
+document.getElementById("refreshBtn").addEventListener("click", () => {
+    loadDashboardData(true);
+});
+
+document.getElementById("downloadCsvBtn").addEventListener("click", () => {
+    const csv = convertRowsToCsv(currentRows);
+    downloadFile("visible_leads.csv", csv, "text/csv;charset=utf-8;");
+});
+
+document.getElementById("downloadJsonBtn").addEventListener("click", () => {
+    const content = JSON.stringify({ records: currentRows }, null, 2);
+    downloadFile("visible_leads.json", content, "application/json;charset=utf-8;");
+});
+
+// auto refresh every 15 minutes
+setInterval(() => {
+    loadDashboardData(false);
+}, 15 * 60 * 1000);
+
+loadDashboardData(true);

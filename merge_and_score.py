@@ -1,6 +1,7 @@
 import csv
 import json
 import re
+from datetime import datetime, timezone
 
 TAX_FILE = "leads.csv"
 PROBATE_FILE = "probate_leads.csv"
@@ -225,6 +226,7 @@ def save_csv(rows):
 
 def save_json(rows):
     payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "total_leads": len(rows),
         "stacked_leads": sum(1 for row in rows if row["tax_sale"] == "YES" and row["probate"] == "YES"),
         "tax_sale_leads": sum(1 for row in rows if row["tax_sale"] == "YES"),

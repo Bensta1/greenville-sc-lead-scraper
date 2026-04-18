@@ -8,7 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <h1>🔥 Greenville Motivated Seller Dashboard</h1>
+        <div class="topbar">
+            <h1>🔥 Greenville Motivated Seller Dashboard</h1>
+            <div class="topbar-right">
+                <div id="lastUpdated" class="last-updated">Last update: --</div>
+                <button id="refreshBtn" class="action-btn">Refresh Data</button>
+                <button id="downloadCsvBtn" class="action-btn">Download Visible CSV</button>
+                <button id="downloadJsonBtn" class="action-btn">Download JSON</button>
+            </div>
+        </div>
 
         <div class="stats" id="stats">
             <div class="stat-card">
@@ -38,10 +46,15 @@
 
             <select id="filterType">
                 <option value="all">All Leads</option>
-                <option value="stacked">Stacked Distress</option>
-                <option value="tax">Tax Sale Only</option>
+                <option value="stacked">Sniper: Stacked Distress</option>
+                <option value="high70">Sniper: High Score 70+</option>
+                <option value="high80">Sniper: High Score 80+</option>
+                <option value="high90">Sniper: High Score 90+</option>
+                <option value="probate_high">Sniper: Probate + 70+</option>
+                <option value="tax_high">Sniper: Tax Sale + 70+</option>
+                <option value="business_high">Sniper: Business Owner + 70+</option>
                 <option value="probate">Probate Only</option>
-                <option value="high">High Score (70+)</option>
+                <option value="tax">Tax Sale Only</option>
             </select>
 
             <select id="sortType">
@@ -51,6 +64,17 @@
                 <option value="amount_desc">Sort: Highest Amount</option>
             </select>
         </div>
+
+        <div class="quick-filters">
+            <button class="quick-filter-btn" data-filter="stacked">Stacked</button>
+            <button class="quick-filter-btn" data-filter="high80">80+</button>
+            <button class="quick-filter-btn" data-filter="probate_high">Probate 70+</button>
+            <button class="quick-filter-btn" data-filter="tax_high">Tax 70+</button>
+            <button class="quick-filter-btn" data-filter="business_high">Business 70+</button>
+            <button class="quick-filter-btn" data-filter="all">Reset</button>
+        </div>
+
+        <div class="results-count" id="resultsCount">Showing 0 leads</div>
 
         <div class="table-wrap">
             <table id="leadsTable">

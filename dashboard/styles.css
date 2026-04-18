@@ -1,19 +1,58 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #111827;
+    background: #08152c;
     color: #f9fafb;
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 24px;
 }
 
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
 h1 {
-    margin-bottom: 24px;
+    margin: 0;
     color: #34d399;
+    font-size: 2.2rem;
+}
+
+.topbar-right {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.last-updated {
+    color: #cbd5e1;
+    background: #13233f;
+    border: 1px solid #2c4164;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.action-btn {
+    background: #1d4ed8;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.action-btn:hover {
+    background: #2563eb;
 }
 
 .stats {
@@ -24,8 +63,8 @@ h1 {
 }
 
 .stat-card {
-    background: #1f2937;
-    border: 1px solid #374151;
+    background: #13233f;
+    border: 1px solid #2c4164;
     border-radius: 12px;
     padding: 18px;
 }
@@ -46,7 +85,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .controls input,
@@ -54,16 +93,43 @@ h1 {
     padding: 12px;
     border-radius: 8px;
     border: 1px solid #374151;
-    background: #1f2937;
+    background: #13233f;
     color: white;
     min-width: 220px;
 }
 
+.quick-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.quick-filter-btn {
+    background: #0f766e;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.quick-filter-btn:hover {
+    background: #0d9488;
+}
+
+.results-count {
+    color: #cbd5e1;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
 .table-wrap {
     overflow-x: auto;
-    background: #1f2937;
+    background: #0b1730;
     border-radius: 12px;
-    border: 1px solid #374151;
+    border: 1px solid #2c4164;
 }
 
 table {
@@ -72,21 +138,26 @@ table {
 }
 
 thead {
-    background: #0f172a;
+    background: #0f1f3c;
 }
 
 th, td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #374151;
+    border-bottom: 1px solid #223657;
     vertical-align: top;
 }
 
 tr:hover {
-    background: #273549;
+    background: #12233f;
 }
 
 .high-score {
     color: #34d399;
+    font-weight: bold;
+}
+
+.medium-score {
+    color: #fbbf24;
     font-weight: bold;
 }
