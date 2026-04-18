@@ -2,6 +2,20 @@ let allRecords = [];
 let currentRows = [];
 let rawJson = null;
 
+function isNewSinceYesterday(record) {
+    if (!record.generated_at) return false;
+
+    const leadDate = new Date(record.generated_at);
+    if (isNaN(leadDate.getTime())) return false;
+
+    const now = new Date();
+    const yesterday = new Date(now);
+    yesterday.setDate(now.getDate() - 1);
+    yesterday.setHours(0, 0, 0, 0);
+
+    return leadDate >= yesterday;
+}
+
 async function loadDashboardData(showAlertOnError = true) {
     try {
         const response = await fetch("master_leads.json?ts=" + Date.now());
@@ -30,6 +44,10 @@ function renderStats(data) {
     document.getElementById("probateLeads").textContent = data.probate_leads || 0;
     document.getElementById("stackedLeads").textContent = data.stacked_leads || 0;
     document.getElementById("highScoreLeads").textContent = data.high_score_leads || 0;
+
+    const newCount = allRecords.filter(record => isNewSinceYesterday(record)).length;
+    const el = document.getElementById("newSinceYesterdayCount");
+    if (el) el.textContent = newCount;
 }
 
 function renderLastUpdated(value) {
@@ -89,6 +107,8 @@ function applyFilters(scrollTop = false) {
             const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
             return tags.toLowerCase().includes("business owner") && Number(record.score) >= 70;
         });
+    } else if (filterType === "new_since_yesterday") {
+        filtered = filtered.filter(record => isNewSinceYesterday(record));
     }
 
     if (sortType === "score_desc") {
@@ -149,7 +169,7 @@ function escapeHtml(value) {
 }
 
 function convertRowsToCsv(rows) {
-    const headers = ["owner", "tax_sale", "probate", "parcel", "amount_due", "case_number", "score", "tags"];
+    const headers = ["owner", "tax_sale", "probate", "parcel", "amount_due", "case_number", "score", "tags", "generated_at"];
     const lines = [headers.join(",")];
 
     for (const row of rows) {
@@ -162,7 +182,8 @@ function convertRowsToCsv(rows) {
             row.amount_due || "",
             row.case_number || "",
             row.score ?? "",
-            tags
+            tags,
+            row.generated_at || ""
         ].map(v => `"${String(v).replaceAll('"', '""')}"`);
 
         lines.push(values.join(","));
