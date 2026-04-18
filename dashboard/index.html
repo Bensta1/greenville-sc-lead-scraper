@@ -54,14 +54,16 @@
                 <option value="tax_high">Sniper: Tax Sale + 70+</option>
                 <option value="business_high">Sniper: Business Owner + 70+</option>
                 <option value="probate">Probate Only</option>
-                <option value="tax">Tax Sale Only</option>
+                <option value="tax">Tax Sale Only</option> 
+                <option value="new_since_yesterday">New Since Yesterday</option>
             </select>
 
             <select id="sortType">
                 <option value="score_desc">Sort: Highest Score</option>
                 <option value="score_asc">Sort: Lowest Score</option>
                 <option value="owner_asc">Sort: Owner A-Z</option>
-                <option value="amount_desc">Sort: Highest Amount</option>
+                <option value="amount_desc">Sort: Highest Amount</option> 
+                <option value="newest_desc">Newest First</option>
             </select>
         </div>
 
@@ -71,12 +73,31 @@
             <button class="quick-filter-btn" data-filter="probate_high">Probate 70+</button>
             <button class="quick-filter-btn" data-filter="tax_high">Tax 70+</button>
             <button class="quick-filter-btn" data-filter="business_high">Business 70+</button>
-            <button class="quick-filter-btn" data-filter="all">Reset</button>
+            <button class="quick-filter-btn" data-filter="all">Reset</button> 
+            <button class="quick-filter-btn" data-filter="new_since_yesterday">New Since Yesterday</button>
         </div>
 
         <div class="results-count" id="resultsCount">Showing 0 leads</div>
 
         <div class="table-wrap">
+            <section id="top25Section" style="display:none; margin: 24px 0;">
+    <h2>🔥 Top 25 Hottest Leads</h2>
+    <p>Highest score leads automatically ranked.</p>
+
+    <table id="top25Table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Owner</th>
+                <th>Parcel</th>
+                <th>Amount Due</th>
+                <th>Score</th>
+                <th>Tags</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</section>
             <table id="leadsTable">
                 <thead>
                     <tr>
