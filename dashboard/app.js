@@ -13,9 +13,9 @@ async function loadDashboardData(showAlertOnError = true) {
         rawJson = data;
         allRecords = data.records || [];
 
- renderStats(data);
-renderLastUpdated(data.generated_at);
-applyFilters(false);
+        renderStats(data);
+        renderLastUpdated(data.generated_at);
+        applyFilters(false);
     } catch (error) {
         console.error("Error loading JSON:", error);
         if (showAlertOnError) {
@@ -30,8 +30,6 @@ function renderStats(data) {
     document.getElementById("probateLeads").textContent = data.probate_leads || 0;
     document.getElementById("stackedLeads").textContent = data.stacked_leads || 0;
     document.getElementById("highScoreLeads").textContent = data.high_score_leads || 0;
-
-   }
 }
 
 function renderLastUpdated(value) {
@@ -50,17 +48,7 @@ function renderLastUpdated(value) {
 
     el.textContent = "Last update: " + dt.toLocaleString();
 }
-function isNewSinceYesterday(record) {
-    if (!record.generated_at) return false;
 
-    const dt = new Date(record.generated_at);
-    if (isNaN(dt.getTime())) return false;
-
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-
-    return dt >= yesterday;
-}
 function applyFilters(scrollTop = false) {
     const searchValue = document.getElementById("searchInput").value.toLowerCase().trim();
     const filterType = document.getElementById("filterType").value;
@@ -77,61 +65,6 @@ function applyFilters(scrollTop = false) {
     if (filterType === "stacked") {
         filtered = filtered.filter(record =>
             record.tax_sale === "YES" && record.probate === "YES"
-        );
-    } else if (filterType === "tax") {
-        filtered = filtered.filter(record => record.tax_sale === "YES");
-    } else if (filterType === "probate") {
-        filtered = filtered.filter(record => record.probate === "YES");
-    } else if (filterType === "high70") {
-        filtered = filtered.filter(record => Number(record.score) >= 70);
-    } else if (filterType === "high80") {
-        filtered = filtered.filter(record => Number(record.score) >= 80);
-    } else if (filterType === "high90") {
-        filtered = filtered.filter(record => Number(record.score) >= 90);
-    } else if (filterType === "probate_high") {
-        filtered = filtered.filter(record =>
-            record.probate === "YES" && Number(record.score) >= 70
-        );
-    } else if (filterType === "tax_high") {
-        filtered = filtered.filter(record =>
-            record.tax_sale === "YES" && Number(record.score) >= 70
-        );
-    } else if (filterType === "business_high") {
-        filtered = filtered.filter(record => {
-            const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
-            return tags.toLowerCase().includes("business owner") && Number(record.score) >= 70;
-        });
-    } else if (filterType === "new_since_yesterday") {
-        filtered = filtered.filter(record => isNewSinceYesterday(record));
-    }
-
-    if (sortType === "score_desc") {
-        filtered.sort((a, b) => Number(b.score) - Number(a.score));
-    } else if (sortType === "score_asc") {
-        filtered.sort((a, b) => Number(a.score) - Number(b.score));
-    } else if (sortType === "owner_asc") {
-        filtered.sort((a, b) => (a.owner || "").localeCompare(b.owner || ""));
-    } else if (sortType === "amount_desc") {
-        filtered.sort((a, b) => Number(b.amount_due_num || 0) - Number(a.amount_due_num || 0));
-    }
-
-    currentRows = filtered;
-    renderTable(filtered);
-    renderResultsCount(filtered.length);
-
-    if (scrollTop) {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-}
-        );
-    }
-
-    if (filterType === "stacked") {
-        filtered = filtered.filter(record =>
-            record.tax_sale === "YES" && record.probate === "YES"
-     } else if (filterType === "new_since_yesterday") {
-    filtered = [];
-}                             
         );
     } else if (filterType === "tax") {
         filtered = filtered.filter(record => record.tax_sale === "YES");
@@ -249,7 +182,7 @@ function downloadFile(filename, content, type) {
 
     URL.revokeObjectURL(url);
 }
-function renderTop25NewLeads(records) {
+
 document.getElementById("searchInput").addEventListener("input", () => applyFilters(false));
 document.getElementById("filterType").addEventListener("change", () => applyFilters(true));
 document.getElementById("sortType").addEventListener("change", () => applyFilters(false));
@@ -262,52 +195,6 @@ document.querySelectorAll(".quick-filter-btn").forEach(btn => {
 });
 
 document.getElementById("refreshBtn").addEventListener("click", () => {
-    const section = document.getElementById("top25NewSection");
-    const tbody = document.querySelector("#top25NewTable tbody");
-
-    if (!section || !tbody) return;
-
-    const newestBest = records
-        .filter(record => isNewSinceYesterday(record))
-        .sort((a, b) => {
-            const scoreDiff = Number(b.score || 0) - Number(a.score || 0);
-            if (scoreDiff !== 0) return scoreDiff;
-            return Number(b.amount_due_num || 0) - Number(a.amount_due_num || 0);
-        })
-        .slice(0, 25);
-
-    tbody.innerHTML = "";
-
-    newestBest.forEach((record, idx) => {
-        const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
-        const score = Number(record.score || 0);
-
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-            <td>${idx + 1}</td>
-            <td>${escapeHtml(record.owner || "")}</td>
-            <td>${escapeHtml(record.parcel || "")}</td>
-            <td>${escapeHtml(record.amount_due || "")}</td>
-            <td>${score}</td>
-            <td>${escapeHtml(tags)}</td>
-        `;
-        tbody.appendChild(tr);
-    });
-
-    section.style.display = newestBest.length ? "block" : "none";
-}
-function isNewSinceYesterday(record) {
-    // Only count records that actually have their own timestamp
-    if (!record.generated_at) return false;
-
-    const dt = new Date(record.generated_at);
-    if (isNaN(dt.getTime())) return false;
-
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-
-    return dt >= yesterday;
-}                                                       
     loadDashboardData(true);
 });
 
@@ -321,7 +208,6 @@ document.getElementById("downloadJsonBtn").addEventListener("click", () => {
     downloadFile("visible_leads.json", content, "application/json;charset=utf-8;");
 });
 
-// auto refresh every 15 minutes
 setInterval(() => {
     loadDashboardData(false);
 }, 15 * 60 * 1000);
