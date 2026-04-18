@@ -73,6 +73,8 @@ function applyFilters(scrollTop = false) {
     if (filterType === "stacked") {
         filtered = filtered.filter(record =>
             record.tax_sale === "YES" && record.probate === "YES"
+     } else if (filterType === "new_since_yesterday") {
+    filtered = filtered.filter(record => isNewSinceYesterday(record));                              
         );
     } else if (filterType === "tax") {
         filtered = filtered.filter(record => record.tax_sale === "YES");
