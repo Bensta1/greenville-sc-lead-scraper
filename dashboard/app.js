@@ -31,13 +31,11 @@ function renderStats(data) {
     document.getElementById("probateLeads").textContent = data.probate_leads || 0;
     document.getElementById("stackedLeads").textContent = data.stacked_leads || 0;
     document.getElementById("highScoreLeads").textContent = data.high_score_leads || 0;
-    const newCount = allRecords.filter(record => isNewSinceYesterday(record)).length;
-const el = document.getElementById("newSinceYesterdayCount");
-if (el) el.textContent = newCount;
-    const newCount = allRecords.filter(record => isNewSinceYesterday(record)).length;
 
-const el = document.getElementById("newSinceYesterdayCount");
-if (el) el.textContent = newCount;
+    const newCount = allRecords.filter(record => isNewSinceYesterday(record)).length;
+    const el = document.getElementById("newSinceYesterdayCount");
+    if (el) el.textContent = newCount;
+}
 }
 
 function renderLastUpdated(value) {
@@ -56,7 +54,17 @@ function renderLastUpdated(value) {
 
     el.textContent = "Last update: " + dt.toLocaleString();
 }
+function isNewSinceYesterday(record) {
+    if (!record.generated_at) return false;
 
+    const dt = new Date(record.generated_at);
+    if (isNaN(dt.getTime())) return false;
+
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+
+    return dt >= yesterday;
+}
 function applyFilters(scrollTop = false) {
     const searchValue = document.getElementById("searchInput").value.toLowerCase().trim();
     const filterType = document.getElementById("filterType").value;
@@ -67,6 +75,58 @@ function applyFilters(scrollTop = false) {
     if (searchValue) {
         filtered = filtered.filter(record =>
             (record.owner || "").toLowerCase().includes(searchValue)
+        );
+    }
+
+    if (filterType === "stacked") {
+        filtered = filtered.filter(record =>
+            record.tax_sale === "YES" && record.probate === "YES"
+        );
+    } else if (filterType === "tax") {
+        filtered = filtered.filter(record => record.tax_sale === "YES");
+    } else if (filterType === "probate") {
+        filtered = filtered.filter(record => record.probate === "YES");
+    } else if (filterType === "high70") {
+        filtered = filtered.filter(record => Number(record.score) >= 70);
+    } else if (filterType === "high80") {
+        filtered = filtered.filter(record => Number(record.score) >= 80);
+    } else if (filterType === "high90") {
+        filtered = filtered.filter(record => Number(record.score) >= 90);
+    } else if (filterType === "probate_high") {
+        filtered = filtered.filter(record =>
+            record.probate === "YES" && Number(record.score) >= 70
+        );
+    } else if (filterType === "tax_high") {
+        filtered = filtered.filter(record =>
+            record.tax_sale === "YES" && Number(record.score) >= 70
+        );
+    } else if (filterType === "business_high") {
+        filtered = filtered.filter(record => {
+            const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
+            return tags.toLowerCase().includes("business owner") && Number(record.score) >= 70;
+        });
+    } else if (filterType === "new_since_yesterday") {
+        filtered = filtered.filter(record => isNewSinceYesterday(record));
+    }
+
+    if (sortType === "score_desc") {
+        filtered.sort((a, b) => Number(b.score) - Number(a.score));
+    } else if (sortType === "score_asc") {
+        filtered.sort((a, b) => Number(a.score) - Number(b.score));
+    } else if (sortType === "owner_asc") {
+        filtered.sort((a, b) => (a.owner || "").localeCompare(b.owner || ""));
+    } else if (sortType === "amount_desc") {
+        filtered.sort((a, b) => Number(b.amount_due_num || 0) - Number(a.amount_due_num || 0));
+    }
+
+    currentRows = filtered;
+    renderTable(filtered);
+    renderResultsCount(filtered.length);
+
+    if (scrollTop) {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+}
         );
     }
 
