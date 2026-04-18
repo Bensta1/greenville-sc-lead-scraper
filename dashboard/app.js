@@ -1,6 +1,6 @@
 let allRecords = [];
 
-fetch("../master_leads.json")
+fetch("./master_leads.json")
     .then(response => response.json())
     .then(data => {
         allRecords = data.records || [];
