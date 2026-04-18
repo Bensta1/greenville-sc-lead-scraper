@@ -186,7 +186,7 @@ function downloadFile(filename, content, type) {
 
     URL.revokeObjectURL(url);
 }
-
+function renderTop25NewLeads(records) {
 document.getElementById("searchInput").addEventListener("input", () => applyFilters(false));
 document.getElementById("filterType").addEventListener("change", () => applyFilters(true));
 document.getElementById("sortType").addEventListener("change", () => applyFilters(false));
@@ -199,7 +199,6 @@ document.querySelectorAll(".quick-filter-btn").forEach(btn => {
 });
 
 document.getElementById("refreshBtn").addEventListener("click", () => {
-    function renderTop25NewLeads(records) {
     const section = document.getElementById("top25NewSection");
     const tbody = document.querySelector("#top25NewTable tbody");
 
