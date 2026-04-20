@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #08152c;
+    color: #f9fafb;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 0;
+    color: #34d399;
+    font-size: 2.2rem;
+}
+
+.topbar-right {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.last-updated {
+    color: #cbd5e1;
+    background: #13233f;
+    border: 1px solid #2c4164;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.action-btn {
+    background: #1d4ed8;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.action-btn:hover {
+    background: #2563eb;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.stat-card {
+    background: #13233f;
+    border: 1px solid #2c4164;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 8px;
+}
+
+.stat-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.controls input,
+.controls select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #374151;
+    background: #13233f;
+    color: white;
+    min-width: 220px;
+}
+
+.quick-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.quick-filter-btn {
+    background: #0f766e;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.quick-filter-btn:hover {
+    background: #0d9488;
+}
+
+.results-count {
+    color: #cbd5e1;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    background: #0b1730;
+    border-radius: 12px;
+    border: 1px solid #2c4164;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #0f1f3c;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #223657;
+    vertical-align: top;
+}
+
+tr:hover {
+    background: #12233f;
+}
+
+.high-score {
+    color: #34d399;
+    font-weight: bold;
+}
+
+.medium-score {
+    color: #fbbf24;
+    font-weight: bold;
+}
