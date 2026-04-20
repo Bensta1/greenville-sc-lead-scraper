@@ -3,7 +3,7 @@ import csv
 import time
 
 URL = "https://www.greenvillecounty.org/appsas400/Probate/"
-SEARCH_LETTERS = ["A", "B", "C"]
+SEARCH_LETTERS = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 PARTY_TYPE_LABELS = ["Deceased", "Deceased Person"]
 OUTPUT_FILE = "probate_leads.csv"
 
