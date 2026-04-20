@@ -9,21 +9,6 @@ function isNewSinceYesterday(record) {
     if (isNaN(leadDate.getTime())) return false;
 
     const now = new Date();
-
-    // Create yesterday at midnight LOCAL time
-    const yesterday = new Date();
-    yesterday.setDate(now.getDate() - 1);
-    yesterday.setHours(0, 0, 0, 0);
-
-    // Convert leadDate to LOCAL timestamp
-    return leadDate.getTime() >= yesterday.getTime();
-}
-    if (!record.generated_at) return false;
-
-    const leadDate = new Date(record.generated_at);
-    if (isNaN(leadDate.getTime())) return false;
-
-    const now = new Date();
     const yesterday = new Date(now);
     yesterday.setDate(now.getDate() - 1);
     yesterday.setHours(0, 0, 0, 0);
@@ -33,7 +18,9 @@ function isNewSinceYesterday(record) {
 
 async function loadDashboardData(showAlertOnError = true) {
     try {
-        const response = await fetch("master_leads.json?ts=" + Date.now());
+        // ✅ FIXED PATH HERE
+        const response = await fetch("master_leads.json?ts=" + Date.now())
+
         if (!response.ok) {
             throw new Error("HTTP " + response.status);
         }
@@ -45,6 +32,7 @@ async function loadDashboardData(showAlertOnError = true) {
         renderStats(data);
         renderLastUpdated(data.generated_at);
         applyFilters(false);
+
     } catch (error) {
         console.error("Error loading JSON:", error);
         if (showAlertOnError) {
@@ -105,35 +93,10 @@ function applyFilters(scrollTop = false) {
         filtered = filtered.filter(record => record.probate === "YES");
     } else if (filterType === "high70") {
         filtered = filtered.filter(record => Number(record.score) >= 70);
-    } else if (filterType === "high80") {
-        filtered = filtered.filter(record => Number(record.score) >= 80);
-    } else if (filterType === "high90") {
-        filtered = filtered.filter(record => Number(record.score) >= 90);
-    } else if (filterType === "probate_high") {
-        filtered = filtered.filter(record =>
-            record.probate === "YES" && Number(record.score) >= 70
-        );
-    } else if (filterType === "tax_high") {
-        filtered = filtered.filter(record =>
-            record.tax_sale === "YES" && Number(record.score) >= 70
-        );
-    } else if (filterType === "business_high") {
-        filtered = filtered.filter(record => {
-            const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
-            return tags.toLowerCase().includes("business owner") && Number(record.score) >= 70;
-        });
-    } else if (filterType === "new_since_yesterday") {
-        filtered = filtered.filter(record => isNewSinceYesterday(record));
     }
 
     if (sortType === "score_desc") {
         filtered.sort((a, b) => Number(b.score) - Number(a.score));
-    } else if (sortType === "score_asc") {
-        filtered.sort((a, b) => Number(a.score) - Number(b.score));
-    } else if (sortType === "owner_asc") {
-        filtered.sort((a, b) => (a.owner || "").localeCompare(b.owner || ""));
-    } else if (sortType === "amount_desc") {
-        filtered.sort((a, b) => Number(b.amount_due_num || 0) - Number(a.amount_due_num || 0));
     }
 
     currentRows = filtered;
@@ -149,103 +112,32 @@ function renderResultsCount(count) {
     document.getElementById("resultsCount").textContent = `Showing ${count} leads`;
 }
 
-function renderTable(records) {
-    const tbody = document.querySelector("#leadsTable tbody");
+function renderTable(rows) {
+    const tbody = document.querySelector("#mainTable tbody");
+    if (!tbody) return;
+
     tbody.innerHTML = "";
 
-    records.forEach(record => {
+    rows.forEach((r, index) => {
         const tr = document.createElement("tr");
 
-        const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "");
-        const score = Number(record.score || 0);
-
         tr.innerHTML = `
-            <td>${escapeHtml(record.owner || "")}</td>
-            <td>${escapeHtml(record.tax_sale || "")}</td>
-            <td>${escapeHtml(record.probate || "")}</td>
-            <td>${escapeHtml(record.parcel || "")}</td>
-            <td>${escapeHtml(record.amount_due || "")}</td>
-            <td>${escapeHtml(record.case_number || "")}</td>
-            <td class="${score >= 80 ? "high-score" : score >= 70 ? "medium-score" : ""}">${score}</td>
-            <td>${escapeHtml(tags)}</td>
+            <td>${index + 1}</td>
+            <td>${r.owner || ""}</td>
+            <td>${r.tax_sale}</td>
+            <td>${r.probate}</td>
+            <td>${r.parcel || ""}</td>
+            <td>${r.amount_due || ""}</td>
+            <td>${r.case_number || ""}</td>
+            <td>${r.score}</td>
+            <td>${(r.tags || []).join(", ")}</td>
         `;
 
         tbody.appendChild(tr);
     });
 }
 
-function escapeHtml(value) {
-    return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-}
-
-function convertRowsToCsv(rows) {
-    const headers = ["owner", "tax_sale", "probate", "parcel", "amount_due", "case_number", "score", "tags", "generated_at"];
-    const lines = [headers.join(",")];
-
-    for (const row of rows) {
-        const tags = Array.isArray(row.tags) ? row.tags.join(" | ") : (row.tags || "");
-        const values = [
-            row.owner || "",
-            row.tax_sale || "",
-            row.probate || "",
-            row.parcel || "",
-            row.amount_due || "",
-            row.case_number || "",
-            row.score ?? "",
-            tags,
-            row.generated_at || ""
-        ].map(v => `"${String(v).replaceAll('"', '""')}"`);
-
-        lines.push(values.join(","));
-    }
-
-    return lines.join("\n");
-}
-
-function downloadFile(filename, content, type) {
-    const blob = new Blob([content], { type });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = filename;
-    a.click();
-
-    URL.revokeObjectURL(url);
-}
-
-document.getElementById("searchInput").addEventListener("input", () => applyFilters(false));
-document.getElementById("filterType").addEventListener("change", () => applyFilters(true));
-document.getElementById("sortType").addEventListener("change", () => applyFilters(false));
-
-document.querySelectorAll(".quick-filter-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-        document.getElementById("filterType").value = btn.dataset.filter;
-        applyFilters(true);
-    });
+// ✅ AUTO LOAD DASHBOARD
+document.addEventListener("DOMContentLoaded", () => {
+    loadDashboardData();
 });
-
-document.getElementById("refreshBtn").addEventListener("click", () => {
-    loadDashboardData(true);
-});
-
-document.getElementById("downloadCsvBtn").addEventListener("click", () => {
-    const csv = convertRowsToCsv(currentRows);
-    downloadFile("visible_leads.csv", csv, "text/csv;charset=utf-8;");
-});
-
-document.getElementById("downloadJsonBtn").addEventListener("click", () => {
-    const content = JSON.stringify({ records: currentRows }, null, 2);
-    downloadFile("visible_leads.json", content, "application/json;charset=utf-8;");
-});
-
-setInterval(() => {
-    loadDashboardData(false);
-}, 15 * 60 * 1000);
-
-loadDashboardData(true);
