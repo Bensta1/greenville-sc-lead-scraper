@@ -36,9 +36,9 @@ jobs:
         run: python merge_and_score.py
 
       - name: Copy dashboard JSON to docs
-  run: |
-    mkdir -p docs
-    cp -f master_leads.json docs/master_leads.json
+        run: |
+          mkdir -p docs
+          cp -f master_leads.json docs/master_leads.json
 
       - name: Commit and push updated files
         run: |
