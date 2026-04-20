@@ -41,14 +41,11 @@ def build_master():
         owner_key = row.get("Owner", "").lower().strip()
 
         if owner_key in records_map:
-            # 🔥 STACKED MATCH
             records_map[owner_key]["probate"] = "YES"
             records_map[owner_key]["score"] += 40
             records_map[owner_key]["tags"].append("Probate")
             records_map[owner_key]["tags"].append("STACKED")
-
         else:
-            # probate only
             records_map[owner_key] = {
                 "owner": row.get("Owner", ""),
                 "parcel": "",
@@ -85,5 +82,7 @@ def build_master():
         json.dump(output, f, indent=2)
 
     print("master_leads.json updated")
-    if __name__ == "__main__":
+
+
+if __name__ == "__main__":
     build_master()
