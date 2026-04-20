@@ -85,3 +85,5 @@ def build_master():
         json.dump(output, f, indent=2)
 
     print("master_leads.json updated")
+    if __name__ == "__main__":
+    build_master()
