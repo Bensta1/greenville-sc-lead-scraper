@@ -4,81 +4,99 @@ import time
 
 URL = "https://www.greenvillecounty.org/appsas400/Probate/"
 SEARCH_LETTERS = ["A", "B", "C"]
-PARTY_TYPE = "Deceased"
+PARTY_TYPE_LABELS = ["Deceased", "Deceased Person"]
 OUTPUT_FILE = "probate_leads.csv"
 
 
-def wait_for_results(page, timeout=10000):
-    try:
-        page.wait_for_url("**/SearchResults.aspx**", timeout=timeout)
-        return True
-    except PlaywrightTimeoutError:
-        return False
+def goto_probate_home(page):
+    page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_load_state("networkidle", timeout=15000)
 
 
-def try_submit(page):
-    # 1. Press Enter in the name field
-    try:
-        name_input = page.locator('input[type="text"]').first
-        name_input.focus()
-        name_input.press("Enter")
-        if wait_for_results(page, 5000):
-            return True
-    except Exception:
-        pass
+def get_name_input(page):
+    candidates = [
+        'input[type="text"]',
+        'input[name*="search" i]',
+        'input[id*="search" i]',
+        'input[name*="name" i]',
+        'input[id*="name" i]',
+    ]
+    for selector in candidates:
+        locator = page.locator(selector)
+        if locator.count() > 0:
+            return locator.first
+    raise RuntimeError("Could not find probate name input")
 
-    # 2. Try form requestSubmit()
-    try:
-        ok = page.evaluate("""
-            () => {
-                const el = document.querySelector('input[type="text"]');
-                if (!el || !el.form) return false;
-                if (typeof el.form.requestSubmit === 'function') {
-                    el.form.requestSubmit();
-                } else {
-                    el.form.submit();
-                }
-                return true;
-            }
-        """)
-        if ok and wait_for_results(page, 5000):
-            return True
-    except Exception:
-        pass
 
-    # 3. Try clicking visible buttons/links with "Search"
-    click_targets = [
-        'input[type="submit"]',
-        'button[type="submit"]',
-        'button',
-        'a',
-        'text=Search'
+def get_party_type_select(page):
+    candidates = [
+        'select',
+        'select[name*="party" i]',
+        'select[id*="party" i]',
+        'select[name*="type" i]',
+        'select[id*="type" i]',
+    ]
+    for selector in candidates:
+        locator = page.locator(selector)
+        if locator.count() > 0:
+            return locator.first
+    raise RuntimeError("Could not find probate party type dropdown")
+
+
+def select_party_type(page):
+    dropdown = get_party_type_select(page)
+    options = dropdown.locator("option")
+    available = [options.nth(i).inner_text().strip() for i in range(options.count())]
+
+    for label in PARTY_TYPE_LABELS:
+        if label in available:
+            dropdown.select_option(label=label)
+            return label
+
+    raise RuntimeError(f"Could not find Deceased option. Available options: {available}")
+
+
+def click_search(page):
+    candidates = [
+        'input[type="submit"][value*="Search" i]',
+        'button[type="submit"]:has-text("Search")',
+        'input[value*="Search" i]',
+        'button:has-text("Search")',
+        'text=Search',
     ]
 
-    for selector in click_targets:
-        try:
-            locator = page.locator(selector)
-            count = locator.count()
-            for i in range(count):
-                try:
-                    locator.nth(i).click(timeout=2000, force=True)
-                    if wait_for_results(page, 5000):
-                        return True
-                except Exception:
-                    continue
-        except Exception:
+    for selector in candidates:
+        locator = page.locator(selector)
+        if locator.count() == 0:
             continue
 
+        for i in range(locator.count()):
+            try:
+                with page.expect_navigation(wait_until="domcontentloaded", timeout=15000):
+                    locator.nth(i).click(force=True)
+                page.wait_for_load_state("networkidle", timeout=10000)
+                return True
+            except Exception:
+                continue
+
     return False
+
+
+def on_results_page(page):
+    return "SearchResults.aspx" in page.url
+
+
+def has_404_error(page):
+    return "404Error.aspx" in page.url or "404" in page.url
 
 
 def scrape_results(page, letter):
     results = []
 
     try:
-        page.wait_for_selector("table tr", timeout=8000)
+        page.wait_for_selector("table tr", timeout=10000)
     except PlaywrightTimeoutError:
-        print(f"{letter}: no table found on results page")
+        print(f"{letter}: no table rows found on results page")
         return results
 
     rows = page.locator("table tr")
@@ -100,7 +118,7 @@ def scrape_results(page, letter):
 
             results.append({
                 "case_number": case_number,
-                "name": name,
+                "Owner": name,
                 "party_type": party_type,
                 "search_prefix": letter
             })
@@ -117,7 +135,7 @@ def dedupe_rows(rows):
     for row in rows:
         key = (
             row["case_number"].upper(),
-            row["name"].upper(),
+            row["Owner"].upper(),
             row["party_type"].upper(),
             row["search_prefix"].upper()
         )
@@ -138,30 +156,37 @@ def scrape_probate():
 
         for letter in SEARCH_LETTERS:
             print(f"\nOpening probate page for letter: {letter}")
-            page.goto(URL, wait_until="domcontentloaded", timeout=60000)
 
             try:
-                page.locator('input[type="text"]').first.fill(letter)
-                page.locator("select").first.select_option(label=PARTY_TYPE)
+                goto_probate_home(page)
+
+                name_input = get_name_input(page)
+                name_input.fill("")
+                name_input.fill(letter)
+
+                selected_label = select_party_type(page)
+                print(f"{letter}: selected party type = {selected_label}")
+
+                submitted = click_search(page)
+                if not submitted:
+                    print(f"{letter}: could not click Search button")
+                    continue
+
+                if has_404_error(page):
+                    print(f"{letter}: hit 404/error page after submit")
+                    continue
+
+                if not on_results_page(page):
+                    print(f"{letter}: results page not reached, current URL = {page.url}")
+                    continue
+
+                letter_results = scrape_results(page, letter)
+                all_results.extend(letter_results)
+                time.sleep(1)
+
             except Exception as e:
-                print(f"{letter}: could not fill form: {e}")
+                print(f"{letter}: scrape failed: {e}")
                 continue
-
-            print(f"{letter}: form filled, submitting...")
-            submitted = try_submit(page)
-
-            if not submitted:
-                print(f"{letter}: submit failed")
-                continue
-
-            if "SearchResults.aspx" not in page.url:
-                print(f"{letter}: results page not reached")
-                continue
-
-            letter_results = scrape_results(page, letter)
-            all_results.extend(letter_results)
-
-            time.sleep(1)
 
         browser.close()
 
@@ -176,7 +201,7 @@ def save_csv(rows):
     with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
-            fieldnames=["case_number", "name", "party_type", "search_prefix"]
+            fieldnames=["case_number", "Owner", "party_type", "search_prefix"]
         )
         writer.writeheader()
         writer.writerows(rows)
