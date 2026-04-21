@@ -31,7 +31,16 @@ def build_master():
 
     # --- PROCESS TAX LEADS ---
     for row in tax_leads:
-        owner_key = row.get("Owner", "").lower().strip()
+        def normalize_owner(name):
+    if not name:
+        return ""
+    name = name.lower()
+    for word in ["llc", "inc", "corp", "jr", "sr"]:
+        name = name.replace(word, "")
+    name = name.replace(",", " ").strip()
+    parts = name.split()
+    parts.sort()
+    return " ".join(parts)
 
         if not owner_key:
             continue
