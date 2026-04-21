@@ -21,26 +21,32 @@ def parse_amount(val):
         return 0.0
 
 
+def normalize_owner(name):
+    if not name:
+        return ""
+
+    name = name.lower()
+
+    for word in ["llc", "inc", "corp", "jr", "sr"]:
+        name = name.replace(word, "")
+
+    name = name.replace(",", " ").strip()
+    parts = name.split()
+    parts.sort()
+
+    return " ".join(parts)
+
+
 def build_master():
     tax_leads = load_csv("leads.csv")
     probate_leads = load_csv("probate_leads.csv")
 
     run_timestamp = datetime.now(timezone.utc).isoformat()
-
     records_map = {}
 
     # --- PROCESS TAX LEADS ---
     for row in tax_leads:
-        def normalize_owner(name):
-    if not name:
-        return ""
-    name = name.lower()
-    for word in ["llc", "inc", "corp", "jr", "sr"]:
-        name = name.replace(word, "")
-    name = name.replace(",", " ").strip()
-    parts = name.split()
-    parts.sort()
-    return " ".join(parts)
+        owner_key = normalize_owner(row.get("Owner", ""))
 
         if not owner_key:
             continue
@@ -73,7 +79,7 @@ def build_master():
 
     # --- PROCESS PROBATE LEADS ---
     for row in probate_leads:
-        owner_key = row.get("Owner", "").lower().strip()
+        owner_key = normalize_owner(row.get("Owner", ""))
 
         if not owner_key:
             continue
