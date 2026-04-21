@@ -1,3 +1,26 @@
+import csv
+import json
+from datetime import datetime, timezone
+
+MASTER_FILE = "master_leads.json"
+
+
+def load_csv(filename):
+    try:
+        with open(filename, newline="", encoding="utf-8") as f:
+            return list(csv.DictReader(f))
+    except FileNotFoundError:
+        print(f"{filename} not found")
+        return []
+
+
+def parse_amount(val):
+    try:
+        return float(str(val).replace("$", "").replace(",", "").strip())
+    except Exception:
+        return 0.0
+
+
 def build_master():
     tax_leads = load_csv("leads.csv")
     probate_leads = load_csv("probate_leads.csv")
@@ -9,6 +32,9 @@ def build_master():
     # --- PROCESS TAX LEADS ---
     for row in tax_leads:
         owner_key = row.get("Owner", "").lower().strip()
+
+        if not owner_key:
+            continue
 
         amount = parse_amount(row.get("Amount", ""))
 
@@ -40,11 +66,17 @@ def build_master():
     for row in probate_leads:
         owner_key = row.get("Owner", "").lower().strip()
 
+        if not owner_key:
+            continue
+
         if owner_key in records_map:
             records_map[owner_key]["probate"] = "YES"
             records_map[owner_key]["score"] += 40
-            records_map[owner_key]["tags"].append("Probate")
-            records_map[owner_key]["tags"].append("STACKED")
+
+            if "Probate" not in records_map[owner_key]["tags"]:
+                records_map[owner_key]["tags"].append("Probate")
+            if "STACKED" not in records_map[owner_key]["tags"]:
+                records_map[owner_key]["tags"].append("STACKED")
         else:
             records_map[owner_key] = {
                 "owner": row.get("Owner", ""),
@@ -61,7 +93,6 @@ def build_master():
 
     records = list(records_map.values())
 
-    # --- SUMMARY ---
     total_leads = len(records)
     tax_count = sum(1 for r in records if r["tax_sale"] == "YES")
     probate_count = sum(1 for r in records if r["probate"] == "YES")
