@@ -1,237 +1,11 @@
 {
-  "generated_at": "2026-05-04T13:34:51.078959+00:00",
-  "total_leads": 621,
-  "tax_sale_leads": 521,
+  "generated_at": "2026-05-05T12:13:10.133668+00:00",
+  "total_leads": 440,
+  "tax_sale_leads": 340,
   "probate_leads": 100,
   "stacked_leads": 0,
   "high_score_leads": 0,
   "records": [
-    {
-      "owner": "BRANDT TERRY C LEACH WALLACE D",
-      "parcel": "0393000500200",
-      "amount_due": "$1,542.60",
-      "amount_due_num": 1542.6,
-      "case_number": "2056",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BRANNON KIMBERLY E",
-      "parcel": "0585010100703",
-      "amount_due": "$910.41",
-      "amount_due_num": 910.41,
-      "case_number": "2060",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BREWER SHELBY FRANCES",
-      "parcel": "0638090101200",
-      "amount_due": "$3,617.40",
-      "amount_due_num": 3617.4,
-      "case_number": "2096",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BRIGHT PEGGY MICHELLE",
-      "parcel": "0621010103100",
-      "amount_due": "$1,544.75",
-      "amount_due_num": 1544.75,
-      "case_number": "2148",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BRIGHT W J T",
-      "parcel": "0275000101802",
-      "amount_due": "$10,547.98",
-      "amount_due_num": 10547.98,
-      "case_number": "2152",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BRIZUELA HECTOR D (JTWROS) GON",
-      "parcel": "0176000107500",
-      "amount_due": "$1,437.67",
-      "amount_due_num": 1437.67,
-      "case_number": "2172",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BROUGHTON ANN P TRUSTEE",
-      "parcel": "0128000302200",
-      "amount_due": "$3,432.27",
-      "amount_due_num": 3432.27,
-      "case_number": "2228",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BROUGHTON ROW LLC",
-      "parcel": "0183010501701",
-      "amount_due": "$10,509.64",
-      "amount_due_num": 10509.64,
-      "case_number": "2232",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BROWN BENNIE F SR BROWN LARRY",
-      "parcel": "0644010100301",
-      "amount_due": "$1,947.93",
-      "amount_due_num": 1947.93,
-      "case_number": "2252",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BROWN JEWELL DOLORES-SCATTIFFE",
-      "parcel": "B004040112700",
-      "amount_due": "$929.69",
-      "amount_due_num": 929.69,
-      "case_number": "2296",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BROWN ROBERTA R",
-      "parcel": "0510040101406",
-      "amount_due": "$4,111.81",
-      "amount_due_num": 4111.81,
-      "case_number": "2336",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BRUCE BETTY G",
-      "parcel": "0655011303200",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "2384",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BURDINE ALONZO BURDINE R EMMA",
-      "parcel": "0054000200802",
-      "amount_due": "$1,099.81",
-      "amount_due_num": 1099.81,
-      "case_number": "2508",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BURRELL EARL MICHAEL SR",
-      "parcel": "0241000107400",
-      "amount_due": "$3,110.24",
-      "amount_due_num": 3110.24,
-      "case_number": "2596",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BURRELL KENNETH RAY",
-      "parcel": "0616020109300",
-      "amount_due": "$1,566.49",
-      "amount_due_num": 1566.49,
-      "case_number": "2600",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BURROUGHS BOYCE B",
-      "parcel": "M004040109206",
-      "amount_due": "$1,561.71",
-      "amount_due_num": 1561.71,
-      "case_number": "2620",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
     {
       "owner": "BURTON CARL D & PAMELA ANN",
       "parcel": "0183030111100",
@@ -245,2039 +19,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BUTLER HOWARD",
-      "parcel": "0655011300700",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "2668",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BYARS MARK A",
-      "parcel": "T015000100102",
-      "amount_due": "$4,154.91",
-      "amount_due_num": 4154.91,
-      "case_number": "2716",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "BYRD LADD R",
-      "parcel": "0655011300100",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "2756",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "C&R REAL ESTATE GROUP NC LLC",
-      "parcel": "0514050103200",
-      "amount_due": "$902.52",
-      "amount_due_num": 902.52,
-      "case_number": "2800",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CALDWELL JOY CALDWELL THOMAS",
-      "parcel": "0275000101820",
-      "amount_due": "$4,655.05",
-      "amount_due_num": 4655.05,
-      "case_number": "2824",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CAMERON FRANK B & MARY K TRUST",
-      "parcel": "0541030101301",
-      "amount_due": "$17,501.32",
-      "amount_due_num": 17501.32,
-      "case_number": "2868",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CAMPBELL LAWRENCE R",
-      "parcel": "0159000801000",
-      "amount_due": "$3,717.61",
-      "amount_due_num": 3717.61,
-      "case_number": "2888",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CANNON BRIAN JAMES",
-      "parcel": "0498110101100",
-      "amount_due": "$8,047.81",
-      "amount_due_num": 8047.81,
-      "case_number": "2932",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CAPEY SEA LIMITED PARTNERSHIP",
-      "parcel": "0663050101900",
-      "amount_due": "$2,534.90",
-      "amount_due_num": 2534.9,
-      "case_number": "2960",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CAPPS AMANDA (LIFE ESTATE)",
-      "parcel": "0655050101600",
-      "amount_due": "$1,092.55",
-      "amount_due_num": 1092.55,
-      "case_number": "2964",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CARO SPRGS GOLF & COUNTRY CLUB",
-      "parcel": "0555050109100",
-      "amount_due": "$1,525.30",
-      "amount_due_num": 1525.3,
-      "case_number": "3000",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CAROTEX LAND TRUST THE",
-      "parcel": "0622030100800",
-      "amount_due": "$2,003.04",
-      "amount_due_num": 2003.04,
-      "case_number": "3024",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CARPER ELIZABETH S",
-      "parcel": "0655020602600",
-      "amount_due": "$1,560.74",
-      "amount_due_num": 1560.74,
-      "case_number": "3044",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CARTEE REGINALD CARTEE BREANNA",
-      "parcel": "T020020100202",
-      "amount_due": "$1,628.90",
-      "amount_due_num": 1628.9,
-      "case_number": "3080",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CASTRO FACUNDA SILVA",
-      "parcel": "0136001601400",
-      "amount_due": "$5,176.79",
-      "amount_due_num": 5176.79,
-      "case_number": "3172",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CDRIVE SC LLC",
-      "parcel": "WG06020100612",
-      "amount_due": "$3,316.03",
-      "amount_due_num": 3316.03,
-      "case_number": "3196",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CELIS WILLIAM",
-      "parcel": "WG02050114000",
-      "amount_due": "$1,252.59",
-      "amount_due_num": 1252.59,
-      "case_number": "3212",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHAPMAN FREDDIE L SR",
-      "parcel": "0243000300209",
-      "amount_due": "$1,572.16",
-      "amount_due_num": 1572.16,
-      "case_number": "3356",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHASE MICHAEL A CHASE SHERRIE",
-      "parcel": "0238010101200",
-      "amount_due": "$974.47",
-      "amount_due_num": 974.47,
-      "case_number": "3384",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHASTEEN GROVER IV",
-      "parcel": "0633010100109",
-      "amount_due": "$1,411.98",
-      "amount_due_num": 1411.98,
-      "case_number": "3388",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHAVEZ DELGADO MARCOS EPPERLY",
-      "parcel": "0591020100109",
-      "amount_due": "$1,052.09",
-      "amount_due_num": 1052.09,
-      "case_number": "3396",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHECKER CAB COMPANY",
-      "parcel": "0593020501900",
-      "amount_due": "$1,413.74",
-      "amount_due_num": 1413.74,
-      "case_number": "3400",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHEN YUE SEA",
-      "parcel": "0655020600800",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "3408",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHIEFTAIN CONCRETE CONST INC",
-      "parcel": "0405000300800",
-      "amount_due": "$2,150.82",
-      "amount_due_num": 2150.82,
-      "case_number": "3436",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHIEFTAIN CONCRETE CONSTRUCTIO",
-      "parcel": "0404000201200",
-      "amount_due": "$2,150.82",
-      "amount_due_num": 2150.82,
-      "case_number": "3440",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHILES GERALENE J",
-      "parcel": "0593050108600",
-      "amount_due": "$1,042.75",
-      "amount_due_num": 1042.75,
-      "case_number": "3460",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CHLODNICKI ADAM",
-      "parcel": "0493000701300",
-      "amount_due": "$1,676.92",
-      "amount_due_num": 1676.92,
-      "case_number": "3476",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLARK JIMMY S",
-      "parcel": "0687070102100",
-      "amount_due": "$1,790.89",
-      "amount_due_num": 1790.89,
-      "case_number": "3584",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLARK JIMMY SCOTT",
-      "parcel": "0501020100106",
-      "amount_due": "$1,603.67",
-      "amount_due_num": 1603.67,
-      "case_number": "3588",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLARK MANOR INC",
-      "parcel": "0552010101002",
-      "amount_due": "$1,786.96",
-      "amount_due_num": 1786.96,
-      "case_number": "3592",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLARK MATTHEW A",
-      "parcel": "0616030114802",
-      "amount_due": "$2,120.62",
-      "amount_due_num": 2120.62,
-      "case_number": "3596",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLAYTON SUSAN RAE & ETAL WELLO",
-      "parcel": "0631040100116",
-      "amount_due": "$10,096.93",
-      "amount_due_num": 10096.93,
-      "case_number": "3636",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLEVELAND ALICE BURNETT",
-      "parcel": "0067010103400",
-      "amount_due": "$2,774.04",
-      "amount_due_num": 2774.04,
-      "case_number": "3656",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLINE RICHARD",
-      "parcel": "T034020106800",
-      "amount_due": "$4,028.50",
-      "amount_due_num": 4028.5,
-      "case_number": "3676",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CLINKSCALE PATRICIA",
-      "parcel": "T028000100900",
-      "amount_due": "$1,166.87",
-      "amount_due_num": 1166.87,
-      "case_number": "3692",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CMS DEVELOPMENT CO LLC HALLMAR",
-      "parcel": "0547030105222",
-      "amount_due": "$1,512.05",
-      "amount_due_num": 1512.05,
-      "case_number": "3704",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COCKRELL JAMES",
-      "parcel": "0514020102601",
-      "amount_due": "$2,995.99",
-      "amount_due_num": 2995.99,
-      "case_number": "3724",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COHEN LOUIS & LEAH",
-      "parcel": "0655010300300",
-      "amount_due": "$1,548.55",
-      "amount_due_num": 1548.55,
-      "case_number": "3756",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COHENS JULIA PATRICIA JARRETT",
-      "parcel": "0655010901100",
-      "amount_due": "$1,185.92",
-      "amount_due_num": 1185.92,
-      "case_number": "3768",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COLEMAN ANTHONY",
-      "parcel": "0645090101000",
-      "amount_due": "$2,537.83",
-      "amount_due_num": 2537.83,
-      "case_number": "3856",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COLLEGE PROPERTIES INC",
-      "parcel": "0101010107800",
-      "amount_due": "$1,425.42",
-      "amount_due_num": 1425.42,
-      "case_number": "3872",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COLLINS SYLVIA N",
-      "parcel": "0512010103103",
-      "amount_due": "$2,495.68",
-      "amount_due_num": 2495.68,
-      "case_number": "3888",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CONSUMER'S DEVELOPMENT INC",
-      "parcel": "0602050103900",
-      "amount_due": "$1,382.99",
-      "amount_due_num": 1382.99,
-      "case_number": "3964",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COTHRAN JARED ANTHONY",
-      "parcel": "0641030101000",
-      "amount_due": "$972.69",
-      "amount_due_num": 972.69,
-      "case_number": "4056",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COUNTRY WALK DEVELOPERS INC",
-      "parcel": "0610130100500",
-      "amount_due": "$1,577.12",
-      "amount_due_num": 1577.12,
-      "case_number": "4076",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COVINGTON JUSTIN",
-      "parcel": "0126000101601",
-      "amount_due": "$1,088.75",
-      "amount_due_num": 1088.75,
-      "case_number": "4100",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "COX INEZ GRAHAM",
-      "parcel": "0581010100301",
-      "amount_due": "$1,089.77",
-      "amount_due_num": 1089.77,
-      "case_number": "4120",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CRAIG ANDRE WRIGHT",
-      "parcel": "0398000900900",
-      "amount_due": "$1,714.54",
-      "amount_due_num": 1714.54,
-      "case_number": "4136",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CRISP SANDRA W",
-      "parcel": "0655010100900",
-      "amount_due": "$1,185.92",
-      "amount_due_num": 1185.92,
-      "case_number": "4192",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CROWDER SHANNON LINDSEY",
-      "parcel": "0304000101100",
-      "amount_due": "$3,360.98",
-      "amount_due_num": 3360.98,
-      "case_number": "4228",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CUFF MIGNON CUFF PAUL T",
-      "parcel": "0404001300500",
-      "amount_due": "$2,429.84",
-      "amount_due_num": 2429.84,
-      "case_number": "4296",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CUNNINGHAM CHARLES SNIDER ANTH",
-      "parcel": "0611010103500",
-      "amount_due": "$1,457.68",
-      "amount_due_num": 1457.68,
-      "case_number": "4316",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CUNNINGHAM REBECCA",
-      "parcel": "0174020601300",
-      "amount_due": "$2,035.35",
-      "amount_due_num": 2035.35,
-      "case_number": "4328",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CURETON CARRIE",
-      "parcel": "0588010101400",
-      "amount_due": "$17,202.65",
-      "amount_due_num": 17202.65,
-      "case_number": "4336",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "CURETON TAWANA WILLIAMS YABRI",
-      "parcel": "0655010501700",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "4348",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "D'ANGELO MARY (L-EST) D'ANGELO",
-      "parcel": "0318030103600",
-      "amount_due": "$1,614.88",
-      "amount_due_num": 1614.88,
-      "case_number": "4396",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DANIELS C MACKEY",
-      "parcel": "0112001400400",
-      "amount_due": "$1,065.87",
-      "amount_due_num": 1065.87,
-      "case_number": "4428",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DAVIS ANNIE TECORA",
-      "parcel": "0201001804100",
-      "amount_due": "$2,707.00",
-      "amount_due_num": 2707.0,
-      "case_number": "4488",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DAVIS JAMES KALLEN",
-      "parcel": "0655010300500",
-      "amount_due": "$1,514.29",
-      "amount_due_num": 1514.29,
-      "case_number": "4536",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DAWKINS FREDRICK T",
-      "parcel": "0198000101000",
-      "amount_due": "$3,270.28",
-      "amount_due_num": 3270.28,
-      "case_number": "4608",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DAWSON SASHA A DAWSON MICHEALA",
-      "parcel": "WG02040200200",
-      "amount_due": "$3,550.77",
-      "amount_due_num": 3550.77,
-      "case_number": "4620",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DE FELIPE FAMILY TRUST THE",
-      "parcel": "M008020103300",
-      "amount_due": "$4,756.10",
-      "amount_due_num": 4756.1,
-      "case_number": "4624",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DEAN W L EST",
-      "parcel": "0550020100900",
-      "amount_due": "$1,238.97",
-      "amount_due_num": 1238.97,
-      "case_number": "4636",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DEBUSK J DAVID",
-      "parcel": "0673030101916",
-      "amount_due": "$2,791.13",
-      "amount_due_num": 2791.13,
-      "case_number": "4644",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DEMAUEX LORRAINE F",
-      "parcel": "0543020101700",
-      "amount_due": "$2,521.37",
-      "amount_due_num": 2521.37,
-      "case_number": "4668",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DENNIES LEWIS",
-      "parcel": "0546020110300",
-      "amount_due": "$1,913.79",
-      "amount_due_num": 1913.79,
-      "case_number": "4692",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DOAN AN TROUNG",
-      "parcel": "B013040103000",
-      "amount_due": "$929.69",
-      "amount_due_num": 929.69,
-      "case_number": "4820",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DON GALLOWAY HOMES INC",
-      "parcel": "0539020100465",
-      "amount_due": "$1,445.55",
-      "amount_due_num": 1445.55,
-      "case_number": "4884",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DONAHUE JOYCE A DONAHUE ROBERT",
-      "parcel": "0590010100727",
-      "amount_due": "$1,240.66",
-      "amount_due_num": 1240.66,
-      "case_number": "4888",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DOYLE ROBERT P TRUSTEES DOYLE",
-      "parcel": "0481000200200",
-      "amount_due": "$5,241.04",
-      "amount_due_num": 5241.04,
-      "case_number": "4940",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DRUMMOND WILLIE B",
-      "parcel": "0585020101117",
-      "amount_due": "$23,076.13",
-      "amount_due_num": 23076.13,
-      "case_number": "5000",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DUDUKX INC",
-      "parcel": "0646080102100",
-      "amount_due": "$2,408.22",
-      "amount_due_num": 2408.22,
-      "case_number": "5020",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DURHAM JAMES W MCKINNEY LARRY",
-      "parcel": "0462000100703",
-      "amount_due": "$1,205.19",
-      "amount_due_num": 1205.19,
-      "case_number": "5076",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DYE FAMILY 2012 IRREV TRUST 1",
-      "parcel": "0638140101700",
-      "amount_due": "$2,373.03",
-      "amount_due_num": 2373.03,
-      "case_number": "5104",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "DYE FAMILY 2012 IRREV TRUST-1",
-      "parcel": "0638140102200",
-      "amount_due": "$2,710.85",
-      "amount_due_num": 2710.85,
-      "case_number": "5108",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EAST GEORGIA ROAD PROPERTIES L",
-      "parcel": "0551040104000",
-      "amount_due": "$1,870.30",
-      "amount_due_num": 1870.3,
-      "case_number": "5224",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EAST PARK AT PELHAM IV OWNERS",
-      "parcel": "0533040101320",
-      "amount_due": "$1,112.52",
-      "amount_due_num": 1112.52,
-      "case_number": "5236",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EDMUNDS MACIO III EDMUNDS MICH",
-      "parcel": "T022000100913",
-      "amount_due": "$1,283.24",
-      "amount_due_num": 1283.24,
-      "case_number": "5348",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EDWIN BERRY II",
-      "parcel": "0534020103202",
-      "amount_due": "$1,616.51",
-      "amount_due_num": 1616.51,
-      "case_number": "5396",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "ELLIS CHRISTOPHER MARK ELLIS B",
-      "parcel": "0617030101000",
-      "amount_due": "$1,250.62",
-      "amount_due_num": 1250.62,
-      "case_number": "5468",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "ELROD BARBIE DAWN",
-      "parcel": "0615040105001",
-      "amount_due": "$952.68",
-      "amount_due_num": 952.68,
-      "case_number": "5488",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EMERY STANLEY EMERY KENNETH  E",
-      "parcel": "0605010101500",
-      "amount_due": "$1,470.63",
-      "amount_due_num": 1470.63,
-      "case_number": "5508",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "ESKEW CAROLYN ELIZABETH HILL P",
-      "parcel": "0662050101000",
-      "amount_due": "$1,888.91",
-      "amount_due_num": 1888.91,
-      "case_number": "5616",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "ESKEW MARK RANDOLPH",
-      "parcel": "0655020300600",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "5620",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "ESPINAL MARIA",
-      "parcel": "G001000300600",
-      "amount_due": "$2,667.87",
-      "amount_due_num": 2667.87,
-      "case_number": "5628",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EVERGREEN LLC",
-      "parcel": "0585050120400",
-      "amount_due": "$1,405.39",
-      "amount_due_num": 1405.39,
-      "case_number": "5704",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EVERGREEN PROPERTY DEVELOPMENT",
-      "parcel": "0176000108300",
-      "amount_due": "$4,485.25",
-      "amount_due_num": 4485.25,
-      "case_number": "5712",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "EXECUTIVE",
-      "parcel": "0562060102000",
-      "amount_due": "$1,258.60",
-      "amount_due_num": 1258.6,
-      "case_number": "5720",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FARMER MARCUS L",
-      "parcel": "0655010602300",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "5804",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FELDER THERON",
-      "parcel": "0655010200600",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "5852",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FINLAYSON JAMEY SING DON",
-      "parcel": "M004040101600",
-      "amount_due": "$1,453.55",
-      "amount_due_num": 1453.55,
-      "case_number": "5888",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FINLEY JACK B",
-      "parcel": "0577040101204",
-      "amount_due": "$1,744.24",
-      "amount_due_num": 1744.24,
-      "case_number": "5896",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FLYTHE ELOIS COLLIN",
-      "parcel": "0167000800600",
-      "amount_due": "$2,615.20",
-      "amount_due_num": 2615.2,
-      "case_number": "6024",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FOGGIE TIMOTHY FOGGIE ISAIAH",
-      "parcel": "0556070105100",
-      "amount_due": "$4,527.23",
-      "amount_due_num": 4527.23,
-      "case_number": "6040",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FORE LOUISE L",
-      "parcel": "0608010106900",
-      "amount_due": "$3,355.77",
-      "amount_due_num": 3355.77,
-      "case_number": "6140",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FORRESTER JULIA FAE",
-      "parcel": "0500010102300",
-      "amount_due": "$3,975.24",
-      "amount_due_num": 3975.24,
-      "case_number": "6176",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FORTNER MOLLIE RAY EST",
-      "parcel": "0131000302400",
-      "amount_due": "$3,397.21",
-      "amount_due_num": 3397.21,
-      "case_number": "6188",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FOSTER BENJAMIN L (JTWROS) PER",
-      "parcel": "0198000501300",
-      "amount_due": "$932.01",
-      "amount_due_num": 932.01,
-      "case_number": "6200",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FREY KEITH ALLEN FREY KARL E",
-      "parcel": "0540110102100",
-      "amount_due": "$5,981.14",
-      "amount_due_num": 5981.14,
-      "case_number": "6368",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FRILICK BRITTANY NICOLE",
-      "parcel": "0618010101209",
-      "amount_due": "$1,583.85",
-      "amount_due_num": 1583.85,
-      "case_number": "6376",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FULLER DAVID FULLER PATRICIA",
-      "parcel": "0374000302900",
-      "amount_due": "$2,008.48",
-      "amount_due_num": 2008.48,
-      "case_number": "6396",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FULLER JAMES",
-      "parcel": "0612040102306",
-      "amount_due": "$1,695.27",
-      "amount_due_num": 1695.27,
-      "case_number": "6404",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "FUNK PAUL R & DEBRA W",
-      "parcel": "0645070103500",
-      "amount_due": "$6,867.50",
-      "amount_due_num": 6867.5,
-      "case_number": "6444",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GAINES CORRIE SUE JJF INVESTME",
-      "parcel": "0053000200601",
-      "amount_due": "$2,217.13",
-      "amount_due_num": 2217.13,
-      "case_number": "6480",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GALLOWAY ALMA T GALLOWAY A B",
-      "parcel": "P022000112100",
-      "amount_due": "$1,677.89",
-      "amount_due_num": 1677.89,
-      "case_number": "6492",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARAY ANGY MARIELA PEDROSA",
-      "parcel": "0510050103300",
-      "amount_due": "$1,265.19",
-      "amount_due_num": 1265.19,
-      "case_number": "6552",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARCIA CHRISTOPHER",
-      "parcel": "M011020100512",
-      "amount_due": "$8,444.51",
-      "amount_due_num": 8444.51,
-      "case_number": "6556",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARCIA VICTOR GARCIA MARIA YVE",
-      "parcel": "0275000101812",
-      "amount_due": "$5,290.86",
-      "amount_due_num": 5290.86,
-      "case_number": "6588",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARRETT GARY KEITH & SYLVIA J",
-      "parcel": "0605010102204",
-      "amount_due": "$1,664.07",
-      "amount_due_num": 1664.07,
-      "case_number": "6604",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARRETT GENEVA W WHITE MABLE W",
-      "parcel": "0117000503900",
-      "amount_due": "$1,912.95",
-      "amount_due_num": 1912.95,
-      "case_number": "6608",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARRETT RYAN M",
-      "parcel": "P025000100501",
-      "amount_due": "$1,929.05",
-      "amount_due_num": 1929.05,
-      "case_number": "6616",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARRETT THOMAS RAY JR GARRETT",
-      "parcel": "0547050100200",
-      "amount_due": "$1,866.42",
-      "amount_due_num": 1866.42,
-      "case_number": "6628",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GARY MARY L GARY LEE JAMAL",
-      "parcel": "M012040300800",
-      "amount_due": "$1,010.29",
-      "amount_due_num": 1010.29,
-      "case_number": "6644",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GEDDINGS RICKY",
-      "parcel": "0238010109500",
-      "amount_due": "$5,325.10",
-      "amount_due_num": 5325.1,
-      "case_number": "6692",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GEORGE MICHAEL L & VIRGINIA L",
-      "parcel": "0667050101600",
-      "amount_due": "$979.51",
-      "amount_due_num": 979.51,
-      "case_number": "6712",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GIBSON CHARLES JR",
-      "parcel": "0501030105400",
-      "amount_due": "$1,639.74",
-      "amount_due_num": 1639.74,
-      "case_number": "6760",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GILLESPIE VICTOR LAWRENCE",
-      "parcel": "B002010100100",
-      "amount_due": "$1,892.90",
-      "amount_due_num": 1892.9,
-      "case_number": "6840",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GLIMMERING DAY SPA LLC",
-      "parcel": "G009000400500",
-      "amount_due": "$3,238.05",
-      "amount_due_num": 3238.05,
-      "case_number": "6916",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GOMEZ JOSE ESTEBAN SANCHEZ GAR",
-      "parcel": "B013030121100",
-      "amount_due": "$7,778.05",
-      "amount_due_num": 7778.05,
-      "case_number": "7016",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GONZALEZ JETZABEL ALEIANDRA LO",
-      "parcel": "WG01010101600",
-      "amount_due": "$1,212.33",
-      "amount_due_num": 1212.33,
-      "case_number": "7052",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GOSNELL LINDA",
-      "parcel": "0523010100200",
-      "amount_due": "$7,435.14",
-      "amount_due_num": 7435.14,
-      "case_number": "7112",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GOSS RICHARD TOPPER ETHEL",
-      "parcel": "WG01010101401",
-      "amount_due": "$4,345.72",
-      "amount_due_num": 4345.72,
-      "case_number": "7188",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GOWERS CECIL R",
-      "parcel": "P016010136900",
-      "amount_due": "$3,645.48",
-      "amount_due_num": 3645.48,
-      "case_number": "7196",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GRACE W R & CO",
-      "parcel": "0302000302200",
-      "amount_due": "$3,099.16",
-      "amount_due_num": 3099.16,
-      "case_number": "7200",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GRANT PATRICIA ANN ANDERSON CA",
-      "parcel": "0655011401000",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "7232",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GRAVELY BRANDY",
-      "parcel": "0130000101500",
-      "amount_due": "$931.25",
-      "amount_due_num": 931.25,
-      "case_number": "7252",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GRAY EZIE M GRAY ANNIE J",
-      "parcel": "0366000701700",
-      "amount_due": "$7,877.37",
-      "amount_due_num": 7877.37,
-      "case_number": "7264",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GRAY JOHN W",
-      "parcel": "0175000901900",
-      "amount_due": "$2,460.35",
-      "amount_due_num": 2460.35,
-      "case_number": "7280",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GREEN ANT LLC",
-      "parcel": "0509040102800",
-      "amount_due": "$6,974.64",
-      "amount_due_num": 6974.64,
-      "case_number": "7304",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GREEN GLADYS S",
-      "parcel": "0655010602000",
-      "amount_due": "$967.33",
-      "amount_due_num": 967.33,
-      "case_number": "7316",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GREEN WILLIAM",
-      "parcel": "0602020100405",
-      "amount_due": "$1,272.74",
-      "amount_due_num": 1272.74,
-      "case_number": "7360",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GREEN WILLIE GREEN DONNIE  RAY",
-      "parcel": "0578020100701",
-      "amount_due": "$1,411.23",
-      "amount_due_num": 1411.23,
-      "case_number": "7364",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GRHR LLC",
-      "parcel": "0662100100900",
-      "amount_due": "$1,110.23",
-      "amount_due_num": 1110.23,
-      "case_number": "7484",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GRUMBLES RICHARD A",
-      "parcel": "0504010101204",
-      "amount_due": "$2,054.90",
-      "amount_due_num": 2054.9,
-      "case_number": "7552",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "GVL PROPERTY GROUP LLC",
-      "parcel": "0495000103002",
-      "amount_due": "$2,332.12",
-      "amount_due_num": 2332.12,
-      "case_number": "7652",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HALL CHRISTOPHER D TURNER ROGE",
-      "parcel": "0198000200601",
-      "amount_due": "$2,188.90",
-      "amount_due_num": 2188.9,
-      "case_number": "7700",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HALL RISSA JOY",
-      "parcel": "0505030101502",
-      "amount_due": "$4,126.85",
-      "amount_due_num": 4126.85,
-      "case_number": "7756",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HANSON GEORGE D",
-      "parcel": "0564010100451",
-      "amount_due": "$1,305.82",
-      "amount_due_num": 1305.82,
-      "case_number": "7808",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HARKINS TERESA R HARKINS MICHA",
-      "parcel": "0156000702900",
-      "amount_due": "$1,576.22",
-      "amount_due_num": 1576.22,
-      "case_number": "7840",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HARMS GLORIA G (JTWROS) HARMS",
-      "parcel": "0604060100504",
-      "amount_due": "$931.52",
-      "amount_due_num": 931.52,
-      "case_number": "7864",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HARRIS DIANE (L-EST)",
-      "parcel": "0236000604300",
-      "amount_due": "$1,154.35",
-      "amount_due_num": 1154.35,
-      "case_number": "7900",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HARRIS KELSEA",
-      "parcel": "0536010110100",
-      "amount_due": "$1,058.03",
-      "amount_due_num": 1058.03,
-      "case_number": "7912",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HARRISON GEORGE W REV",
-      "parcel": "0292000106200",
-      "amount_due": "$1,228.39",
-      "amount_due_num": 1228.39,
-      "case_number": "7944",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HARVESTWEN LLC",
-      "parcel": "0630010102501",
-      "amount_due": "$2,181.91",
-      "amount_due_num": 2181.91,
-      "case_number": "7992",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAWKINS EDDIE D HAWKINS TONY C",
@@ -2291,303 +33,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HAWKINS MARY S HAWKINS MARLALY",
-      "parcel": "0603030110300",
-      "amount_due": "$949.93",
-      "amount_due_num": 949.93,
-      "case_number": "8048",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HEAD FANNIE HEAD THOMAS W",
-      "parcel": "P022000114300",
-      "amount_due": "$1,792.89",
-      "amount_due_num": 1792.89,
-      "case_number": "8132",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HELTON DAVID",
-      "parcel": "0170000200208",
-      "amount_due": "$6,830.32",
-      "amount_due_num": 6830.32,
-      "case_number": "8220",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HERITAGE HOMES INC",
-      "parcel": "0543100109400",
-      "amount_due": "$1,745.31",
-      "amount_due_num": 1745.31,
-      "case_number": "8336",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HERMAN HARVEY & FRANCES D",
-      "parcel": "0655020400100",
-      "amount_due": "$1,445.74",
-      "amount_due_num": 1445.74,
-      "case_number": "8344",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HERNANDEZ GERMAN CARRENO (JTWR",
-      "parcel": "0562080102500",
-      "amount_due": "$1,082.86",
-      "amount_due_num": 1082.86,
-      "case_number": "8372",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HERNANDEZ JOSE MANUEL FLORES",
-      "parcel": "0640130102800",
-      "amount_due": "$2,835.29",
-      "amount_due_num": 2835.29,
-      "case_number": "8392",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HERNANDEZ-GONZALEZ KAREN (JTWR",
-      "parcel": "WG06040102000",
-      "amount_due": "$1,103.35",
-      "amount_due_num": 1103.35,
-      "case_number": "8404",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HGGS LLC",
-      "parcel": "0535010103700",
-      "amount_due": "$1,374.42",
-      "amount_due_num": 1374.42,
-      "case_number": "8440",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HIDDEN HOLLOW LLC",
-      "parcel": "0189010100801",
-      "amount_due": "$4,151.38",
-      "amount_due_num": 4151.38,
-      "case_number": "8468",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HILL HOMER HILL HERBERT  HILL",
-      "parcel": "0084000402500",
-      "amount_due": "$2,736.78",
-      "amount_due_num": 2736.78,
-      "case_number": "8520",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HILL WILLIAM HARDING HILL CHAR",
-      "parcel": "0112001205000",
-      "amount_due": "$12,175.15",
-      "amount_due_num": 12175.15,
-      "case_number": "8544",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 40,
-      "tags": [
-        "Tax Sale",
-        "High Tax Amount"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HOLMES BECKY L",
-      "parcel": "0638080103200",
-      "amount_due": "$1,162.49",
-      "amount_due_num": 1162.49,
-      "case_number": "8720",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HOLT WILLIAM PRESTON HOLT RITA",
-      "parcel": "0151000700700",
-      "amount_due": "$909.11",
-      "amount_due_num": 909.11,
-      "case_number": "8756",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HOLTON A E",
-      "parcel": "T023000106200",
-      "amount_due": "$1,462.50",
-      "amount_due_num": 1462.5,
-      "case_number": "8760",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HUDGENS MADORA LIFE EST",
-      "parcel": "G014000404900",
-      "amount_due": "$3,542.89",
-      "amount_due_num": 3542.89,
-      "case_number": "8960",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HUFF SARAH S MCKEOWEN SHIRLEY",
-      "parcel": "0491000204600",
-      "amount_due": "$2,423.83",
-      "amount_due_num": 2423.83,
-      "case_number": "8976",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HUGGINS BRIAN T",
-      "parcel": "0226000101403",
-      "amount_due": "$3,123.91",
-      "amount_due_num": 3123.91,
-      "case_number": "8992",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HUGGINS CLARA MAE",
-      "parcel": "0241000600200",
-      "amount_due": "$1,677.95",
-      "amount_due_num": 1677.95,
-      "case_number": "8996",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HUNSINGER CLARA ANN",
-      "parcel": "0624110100400",
-      "amount_due": "$1,203.72",
-      "amount_due_num": 1203.72,
-      "case_number": "9032",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
-    },
-    {
-      "owner": "HURDLE ELEANOR PATTON MICHAEL",
-      "parcel": "0201001100200",
-      "amount_due": "$3,490.48",
-      "amount_due_num": 3490.48,
-      "case_number": "9048",
-      "tax_sale": "YES",
-      "probate": "NO",
-      "score": 30,
-      "tags": [
-        "Tax Sale"
-      ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "I & A PROPERTIES LLC",
@@ -2601,7 +47,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "IAG PROPERTY GROUP LLC",
@@ -2615,7 +61,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "J & A INCORPORTATED",
@@ -2629,7 +75,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "J B PROPERTIES",
@@ -2643,7 +89,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JACKSON ALBERTA",
@@ -2657,7 +103,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JACKSON ANN MARIE",
@@ -2671,7 +117,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JAMES & COMPANY BUILDERS LLC",
@@ -2685,7 +131,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JAMES PAMELA L (JTWROS) JAMES",
@@ -2699,7 +145,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JEFFCOAT JONATHAN",
@@ -2713,7 +159,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JEFFCOAT JONATHAN VERNOTICO CA",
@@ -2727,7 +173,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JEFFCOAT PHILLIP MARK",
@@ -2741,7 +187,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JEWELL DANNY R JEWELL ROGER",
@@ -2755,7 +201,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JEWELL DEBRA JOYCE JEWELL ROGE",
@@ -2769,7 +215,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JMP RENTAL ESTATE LLC",
@@ -2784,7 +230,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JOHNSON SYLVIA M",
@@ -2798,7 +244,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JONES BROTHERS BUILDERS INC",
@@ -2813,7 +259,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JONES FRANCES C",
@@ -2827,7 +273,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JONES FRANCES MAHONEY KEARSE M",
@@ -2841,7 +287,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JONES JOSEPH E (JTWROS) WHITFI",
@@ -2855,7 +301,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JORDAN DANIEL R JORDAN SUSAN D",
@@ -2869,7 +315,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JORDAN GRACE A HAWKINS JORDAN",
@@ -2883,7 +329,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JORDAN NATHANIEL",
@@ -2897,7 +343,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JUAN MARIA DOMINGO",
@@ -2911,7 +357,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "K & D ENTERPRISES INC",
@@ -2925,7 +371,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KELCH JOHN ROBERT JR",
@@ -2939,7 +385,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KENNEDY BOBBIE J",
@@ -2953,7 +399,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KERNS JAMES R",
@@ -2967,7 +413,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KEY-LINE CAPITAL INVESTMENT GR",
@@ -2981,7 +427,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KEYTON KIA F",
@@ -2995,7 +441,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KINGPIN PROPERTIES INC",
@@ -3009,7 +455,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KIRKUS SANFORD R",
@@ -3023,7 +469,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KITTREDGE CRAIG C",
@@ -3037,7 +483,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KMK INVESTOR MERCK SHARON K",
@@ -3051,7 +497,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KMRT INVESTMENTS LLC",
@@ -3065,7 +511,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KOCH ERIC C & VIRGINIA L",
@@ -3079,7 +525,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KOERNER CONRAD & ROSEMARIE REV",
@@ -3093,7 +539,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KOERNER CONRAD KOERNER JANIE A",
@@ -3107,7 +553,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KOOS EDWARD WAYNE",
@@ -3121,7 +567,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KRAINSON DOROTHY",
@@ -3135,7 +581,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KUYKENDALL BRENDA KUYKENDALL J",
@@ -3149,7 +595,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LADSON DOROTHY & VALERIE YVONN",
@@ -3163,7 +609,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LADSON DOROTHY M CLYBURN MARKU",
@@ -3177,7 +623,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LADSON VALERIE YVONNE DERISSAI",
@@ -3191,7 +637,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LANDMARK ASSET SERVICES INC",
@@ -3205,7 +651,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LAOSEBIKAN BRENDA MCINTYRE EMM",
@@ -3219,7 +665,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LAS CRUCES INVESTMENT LLC",
@@ -3233,7 +679,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LAUREL MEADOWS LLC",
@@ -3247,7 +693,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LAWS GEORGE LAWS GEORGIA LEE",
@@ -3261,7 +707,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LB PARK LLC",
@@ -3275,7 +721,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEDFORD JOE",
@@ -3289,7 +735,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEE ERIC RANDALL",
@@ -3303,7 +749,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEE TOMMY (L-EST)",
@@ -3317,7 +763,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEONARDI JOHN B TRUSTEE",
@@ -3331,7 +777,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEOPARD PATRICIA ANN SMITH YVO",
@@ -3345,7 +791,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEPOFSKY VIVIAN KWINTA",
@@ -3359,7 +805,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEWERS WILLIE W LEWERS DAVID L",
@@ -3373,7 +819,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEWIS RENA B",
@@ -3388,7 +834,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LEWIS WILLIAM",
@@ -3402,7 +848,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LINDSAY LOWELL ETAL",
@@ -3416,7 +862,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LINDSAY MANCE A LINDSAY WALTER",
@@ -3430,7 +876,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LING JIM",
@@ -3444,7 +890,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LION TAX LLC",
@@ -3458,7 +904,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LOCKHART MARTHA WARE MARGARITA",
@@ -3472,7 +918,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LOWE CHARLES R",
@@ -3486,7 +932,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LQ PRIVATE VENTURES 33 LLC",
@@ -3501,7 +947,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "LUNA MIQUEL",
@@ -3515,7 +961,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "M & T PROPERTIES LLC",
@@ -3529,7 +975,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MACK CLAUDIA N",
@@ -3543,7 +989,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MACK CLAUDIA N MACK PELZIER JR",
@@ -3557,7 +1003,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MADDOX MICHAEL T",
@@ -3571,7 +1017,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MAHON ELIZABETH J CAREY BOONE",
@@ -3586,7 +1032,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MALLARD GROUP INC",
@@ -3600,7 +1046,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MANN POLLY HYDE",
@@ -3614,7 +1060,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MANSELL JASON MANSELL SHARON",
@@ -3628,7 +1074,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MARBRY TINA E",
@@ -3642,7 +1088,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MARSH JOHN THOMAS SR",
@@ -3656,7 +1102,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MARTIN DEMETRIUS",
@@ -3670,7 +1116,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MARTIN DIANE WILLIAMS TOMMY LE",
@@ -3684,7 +1130,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MARTINEZ ALEXIS DANIEL SIMON S",
@@ -3698,7 +1144,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MASHBURN GEORGE",
@@ -3712,7 +1158,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCABEE JAMES WILLIAM FAMILY",
@@ -3726,7 +1172,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCALHANEY SHANNON MCALHANEY RE",
@@ -3740,7 +1186,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCAMISH PATRICK",
@@ -3754,7 +1200,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCBEE LOUISE BARTON TAVARIS  B",
@@ -3768,7 +1214,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCLAMROCK BARRY",
@@ -3782,7 +1228,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCLAMROCK BARRY K",
@@ -3796,7 +1242,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCONNELL MICHAEL DALE TRUSTEE",
@@ -3810,7 +1256,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCRARY FAMILY TRUST",
@@ -3824,7 +1270,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCUEN VIRGINIA WILLIAMS MCCUE",
@@ -3838,7 +1284,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCULLOUGH MATTHEW",
@@ -3852,7 +1298,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCDOWELL N O JR",
@@ -3866,7 +1312,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCKENZIE HENRY",
@@ -3880,7 +1326,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCKINNEY LARRY A SR LIVING TRU",
@@ -3894,7 +1340,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCPEAK ROBERT M SR",
@@ -3908,7 +1354,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MENDOZA EDUARDO",
@@ -3922,7 +1368,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MERCK SHARON K & KMK INVESTORS",
@@ -3936,7 +1382,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MIDLAND INCORPORATED",
@@ -3950,7 +1396,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MILLER KELLEY GARRETT GARRETT",
@@ -3964,7 +1410,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MILLS MARTHA BENNETT ROSA LEE",
@@ -3978,7 +1424,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MITCHELL GLEN BURDINE ELIZABET",
@@ -3992,7 +1438,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MITCHELL JOHN M",
@@ -4006,7 +1452,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MITCHELL THEO",
@@ -4020,7 +1466,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOCK ANNAH",
@@ -4034,7 +1480,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MONNETT LISA E MONNETT CHARLES",
@@ -4048,7 +1494,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOODY ROBYN MOODY A V III",
@@ -4062,7 +1508,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOON LILLIE A",
@@ -4076,7 +1522,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOONVILLE PROPERTIES L L C",
@@ -4090,7 +1536,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOONVILLE PROPERTIES LLC",
@@ -4105,7 +1551,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOORE BLANCHE E",
@@ -4119,7 +1565,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOORE CAROL A",
@@ -4133,7 +1579,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOORE PATRICIA MOORE JAMES C I",
@@ -4147,7 +1593,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOOREHEAD ANGELA C CHAPMAN HAL",
@@ -4161,7 +1607,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MORALES LILIA FLORES (SURV) GO",
@@ -4175,7 +1621,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MORGAN JAMES STEVEN MORGAN PAT",
@@ -4189,7 +1635,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOSLEY JANIE H (LIFE EST)",
@@ -4203,7 +1649,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOTES RICKY J PIERCE TAMMY M",
@@ -4217,7 +1663,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MRK DEVELOPMENT LLC",
@@ -4232,7 +1678,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MS PARTNERS LLC",
@@ -4246,7 +1692,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MULL JERRY D",
@@ -4260,7 +1706,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MULLINAX JOSEPH DAN",
@@ -4274,7 +1720,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NANCE JUANITA HEYWARD JULIA S",
@@ -4288,7 +1734,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NASH PEARL",
@@ -4303,7 +1749,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NATIONAL PAY PER CLICK LLC",
@@ -4317,7 +1763,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NEAL BRIDGETTE TARA",
@@ -4331,7 +1777,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NEELY RICHARD W",
@@ -4346,7 +1792,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NELSON RICKY L JR HANSON ROBER",
@@ -4360,7 +1806,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NEW RIVER CORPORATION",
@@ -4374,7 +1820,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NICHOLS DON",
@@ -4388,7 +1834,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NORRIS BETTY JO SYPHRIT WILLIA",
@@ -4402,7 +1848,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NORRIS JEANNE D THREATT",
@@ -4416,7 +1862,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NORTH GEORGIA AVENUE GREENVILL",
@@ -4430,7 +1876,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NORTHMEDE ANDERSON ASSOCIATES",
@@ -4445,7 +1891,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "OCONNOR PATRICIA MCNULTY TRUST",
@@ -4459,7 +1905,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ODOM-STEWART ROBIN",
@@ -4473,7 +1919,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "OF MOSES DILLARD JR ETAL CONV",
@@ -4488,7 +1934,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ORIGIN HOLDINGS LLC",
@@ -4502,7 +1948,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "P C DEVELOPERS INC",
@@ -4516,7 +1962,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PADEN SAM & OLA",
@@ -4530,7 +1976,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PARAGON REAL ESTATE INC",
@@ -4544,7 +1990,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PARK AVENUE PROPERTIES",
@@ -4558,7 +2004,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PARKER & RENAUD DEVELPMT CORP",
@@ -4572,7 +2018,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PARNELL BECKY SUE",
@@ -4587,7 +2033,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PARRISH JAMES WALTER",
@@ -4601,7 +2047,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PASLEY JAMES ETAL CONV  SPALDI",
@@ -4615,7 +2061,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PEEBLES HENRY LEE",
@@ -4629,7 +2075,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PENA LUIS HERNANDEZ",
@@ -4644,7 +2090,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PERKINS MAUREEN",
@@ -4658,7 +2104,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PERRELLA DAVID LOUIS (JTWROS)",
@@ -4672,7 +2118,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PERRY KATHRYN SULLIVAN MARY M",
@@ -4686,7 +2132,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PERRY PAMELA K PERRY JAMES M",
@@ -4700,7 +2146,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PHIPPS SYBIL F",
@@ -4714,7 +2160,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PIERCE SUE T THOMAS STEVEN RIT",
@@ -4728,7 +2174,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PINSON ANNE GARRETT (EST)",
@@ -4742,7 +2188,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PITTMAN MARGIE E",
@@ -4756,7 +2202,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PITTMAN MATTHEW E",
@@ -4770,7 +2216,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PITTMAN RALPH L & LISA",
@@ -4784,7 +2230,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PITTS JOHN HENRY JR",
@@ -4798,7 +2244,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PM EDGEWOOD LLC",
@@ -4812,7 +2258,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "POINSETT HOMES LLC",
@@ -4826,7 +2272,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "POKORA WILLIAM",
@@ -4841,7 +2287,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "POLLARD FAMILY REVOC LIV TRUST",
@@ -4855,7 +2301,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "POPE MICHAEL W",
@@ -4869,7 +2315,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PORTAFOLIO PTR LLC",
@@ -4883,7 +2329,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "POST OFFICE PLAZA OWNERS ASSO",
@@ -4897,7 +2343,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PRASS JOHN H",
@@ -4911,7 +2357,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PRIETO THERESA (JTWROS) JOHNSO",
@@ -4925,7 +2371,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PRIME REAL ESTATE L L C",
@@ -4939,7 +2385,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PRINCE HOPKINS INVESTMENTS LTD",
@@ -4953,7 +2399,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PRINGLE DAREN A",
@@ -4967,7 +2413,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PROFESSIONAL DEVELOPERS LLC",
@@ -4981,7 +2427,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PROPERTY 322 LLC",
@@ -4996,7 +2442,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PROPHITT DAVID",
@@ -5010,7 +2456,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PUTMAN C F EST",
@@ -5024,7 +2470,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "QUINN JOEL",
@@ -5038,7 +2484,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "R+R 360 LLC",
@@ -5052,7 +2498,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RAG INVESTMENT GROUP LLC",
@@ -5066,7 +2512,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RAINBOW RIDGE LLC",
@@ -5080,7 +2526,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RAINEY CHARLES B JR",
@@ -5094,7 +2540,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RAMIREZ ESPERANZA MALDONADO",
@@ -5108,7 +2554,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "REJ TRANQUIL COURT LLC",
@@ -5122,7 +2568,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "REPLITEC INC",
@@ -5136,7 +2582,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RESTORATION AT SIMPSONVILLE",
@@ -5151,7 +2597,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "REYES CARLOS MOLINA",
@@ -5166,7 +2612,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RHODEN JAMES R RHODEN THOMAS W",
@@ -5180,7 +2626,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RHYMES MONICA",
@@ -5194,7 +2640,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RICE JONI L",
@@ -5208,7 +2654,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RICE LEON L",
@@ -5222,7 +2668,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RICE MARY ALICE",
@@ -5236,7 +2682,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RICHARDSON JACKSON",
@@ -5250,7 +2696,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RICHARDSON MATTIE L SIMMS LIZZ",
@@ -5264,7 +2710,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RICHMOND KAREN D",
@@ -5278,7 +2724,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RIDGEWAY CHARLES M",
@@ -5292,7 +2738,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RIGGINS AND ASSOCIATES DEV CO",
@@ -5306,7 +2752,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RINER WADE",
@@ -5321,7 +2767,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROACH MAE CROWDER ROACH EDWARD",
@@ -5335,7 +2781,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROBERTS PHYLLIS SCIVEDGE TRACY",
@@ -5349,7 +2795,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROBINSON CLIFTON SMITH MARY R",
@@ -5363,7 +2809,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROBINSON GEORGE ALLEN JR",
@@ -5377,7 +2823,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROCK MARK",
@@ -5391,7 +2837,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RODGERS MICHAEL TODD",
@@ -5405,7 +2851,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RODRIGUEZ JOSE",
@@ -5419,7 +2865,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROGERS ARTHUR",
@@ -5433,7 +2879,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROLLINSON NANCY",
@@ -5447,7 +2893,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROLLINSON NANCY G ROLLINSON JO",
@@ -5461,7 +2907,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RONK JOHN DAVID",
@@ -5475,7 +2921,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RTM REAL ESTATE VENTURES LLC",
@@ -5490,7 +2936,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RUC JERRY",
@@ -5505,7 +2951,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RUN INC",
@@ -5519,7 +2965,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "RUSSELL'S PLACE HOMEOWNERS ASO",
@@ -5534,7 +2980,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "S-SQUARE A GEN PARTN",
@@ -5548,7 +2994,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SAHA N FRANKLIN LLC",
@@ -5562,7 +3008,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SAN-DEL BUILDERS INC",
@@ -5576,7 +3022,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SANCHEZ FIDENCIO RUIZ YANEZ YU",
@@ -5590,7 +3036,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SANDERS JUDY ETAL CONV  LONG J",
@@ -5604,7 +3050,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SANDERS MARA JANE",
@@ -5618,7 +3064,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SANFORD & ASSOCIATES INC",
@@ -5632,7 +3078,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SC NATIONAL BANK CORPORATION",
@@ -5646,7 +3092,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SCHMITT DOROTHY G SCHMITT CARL",
@@ -5660,7 +3106,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SEBASTIAN VICTORIA BARTOLOME J",
@@ -5675,7 +3121,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SEPPALA HOMES INC",
@@ -5689,7 +3135,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SEPPALA MARTIN SEPPALA NANCY",
@@ -5704,7 +3150,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SH COUSINS LLC",
@@ -5718,7 +3164,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHAFER CORINNE A SHAFER ROBERT",
@@ -5732,7 +3178,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHALULY JOHN MICHAEL (JTWROS)",
@@ -5746,7 +3192,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHARPE HALEY M SHARPE KELSEY M",
@@ -5760,7 +3206,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHAW ENTERPRISES OF THE UPSTAT",
@@ -5774,7 +3220,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHEHEEN AUSTIN M JR",
@@ -5788,7 +3234,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHILOH INVESTMENT GROUP LLC",
@@ -5802,7 +3248,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHOCKLEY JAMES DARROL",
@@ -5816,7 +3262,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHRADER MARY W",
@@ -5830,7 +3276,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SHUPTRINE LYNN P",
@@ -5844,7 +3290,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SILVA ENRIQUE PASCUAL RODRIGUE",
@@ -5858,7 +3304,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SIMMONS JACK SIMMONS HASSIE G",
@@ -5872,7 +3318,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SIMPSON ESTER PHILLIPS & STEPH",
@@ -5886,7 +3332,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SIMPSON ESTHER P",
@@ -5900,7 +3346,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SIMPSON SHUNIKA RHONSHEA",
@@ -5914,7 +3360,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SKINNER FLOYD SKINNER RUBY A",
@@ -5928,7 +3374,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SLIGH DEL",
@@ -5942,7 +3388,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH AMANDA J SMITH LUKE",
@@ -5956,7 +3402,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH DOROTHY F",
@@ -5970,7 +3416,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH MARGIE",
@@ -5984,7 +3430,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH MILDRED",
@@ -5998,7 +3444,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH MURIEL SMITH JOHN H",
@@ -6012,7 +3458,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH SORAYA",
@@ -6026,7 +3472,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH WALTER JASON",
@@ -6040,7 +3486,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITHERS MARGARET LOUISE",
@@ -6055,7 +3501,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SNW PROPERTIES LLC",
@@ -6069,7 +3515,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SNYDER DONALD",
@@ -6083,7 +3529,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SNYDER JOSEPH M",
@@ -6097,7 +3543,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SOLOMON HENRY LEE",
@@ -6111,7 +3557,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SORLEY EVA M",
@@ -6125,7 +3571,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SOUTHEASTERN REAL ESTATE AND D",
@@ -6139,7 +3585,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ST PAUL FULL DELIVERANCE CHURC",
@@ -6153,7 +3599,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STEWART JAMES MICHAEL",
@@ -6167,7 +3613,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STOCKTON RICHARD KEVIN",
@@ -6181,7 +3627,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STONE C RIVERS LTD PARTN",
@@ -6195,7 +3641,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STORCH PATTI ANN STORCH ANDY",
@@ -6210,7 +3656,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STRICKLAND LASHONE STRICKLAND",
@@ -6224,7 +3670,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STRICKLAND MELISSA D",
@@ -6238,7 +3684,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STRINGFELLOW LEO",
@@ -6252,7 +3698,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STRONG GAVIN",
@@ -6267,7 +3713,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "STROUD J G STROUD ESSIE E",
@@ -6281,7 +3727,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SULLIVAN WILLIAM M",
@@ -6295,7 +3741,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SUTHERLAND ALICE (JTWROS) SUTH",
@@ -6309,7 +3755,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "T & T CAPITAL INC",
@@ -6323,7 +3769,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TANNER JET R SR ETAL CONV  GOR",
@@ -6337,7 +3783,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TAYLOR ROBERT L",
@@ -6351,7 +3797,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TAYLOR SYLVIA JEAN",
@@ -6365,7 +3811,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TBS OF SOUTH CAROLINA LLC",
@@ -6379,7 +3825,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THE SHOALS INC",
@@ -6393,7 +3839,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMAS ERIC ALLAN",
@@ -6407,7 +3853,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMAS JULIUS C",
@@ -6421,7 +3867,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMAS SARAH BOWENS NATHANIAL",
@@ -6435,7 +3881,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMASON GLENN C JR",
@@ -6449,7 +3895,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMASON MARGARET A",
@@ -6463,7 +3909,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMASON TIMMY ETAL CONV  THJO",
@@ -6477,7 +3923,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMPSON UNLIMITED LLC",
@@ -6491,7 +3937,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THORN RIDGE HOMEOWNERS ASSOC",
@@ -6505,7 +3951,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THREATT T C TRUSTEE",
@@ -6519,7 +3965,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TOLBERT ERNEST TOLBERT KATHY E",
@@ -6533,7 +3979,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TOLLISON GAULT ANTHONY",
@@ -6548,7 +3994,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TORRES MARLA",
@@ -6562,7 +4008,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TRIDENT RESOURCES GROUP INC",
@@ -6576,7 +4022,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TRINITY SERVICES EDWIN BERRY",
@@ -6590,7 +4036,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TRUJILLO GLADIS",
@@ -6605,7 +4051,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TUCKER KATIE T",
@@ -6619,7 +4065,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TUMBLIN HASKELL E",
@@ -6633,7 +4079,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TUMMINIA FRANK",
@@ -6647,7 +4093,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TWO BS PROPERTIES LLC",
@@ -6661,7 +4107,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TYNER JESSICA (L-EST)",
@@ -6675,7 +4121,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TZOMPAXTLE BRENDA ITEHUA (JTWR",
@@ -6689,7 +4135,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "UNITED VETERANS ASSOCIATION IN",
@@ -6703,7 +4149,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "UPTON JERRY A",
@@ -6717,7 +4163,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "V-GO HOLDINGS LLC",
@@ -6732,7 +4178,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "VAUGHN GREGORY S",
@@ -6746,7 +4192,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "VAUGHN JAMES R",
@@ -6760,7 +4206,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "VILLAGE AT POE MILL LLC",
@@ -6774,7 +4220,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "VILLAR 360 ENTERPRISES LLC",
@@ -6788,7 +4234,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "VISION DEVELOPMENT & RESOURCES",
@@ -6802,7 +4248,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "VISION DEVELOPMENT AND RESOURC",
@@ -6816,7 +4262,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "VISION ENTERPRISES INC",
@@ -6830,7 +4276,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WALDEN WALTER F",
@@ -6844,7 +4290,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WALDEN WALTER F WOODS BERRY",
@@ -6858,7 +4304,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WASHINGTON STREET REAL ESTATE",
@@ -6872,7 +4318,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WATERS ALVIN S WATERS JULIA B",
@@ -6886,7 +4332,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WEBB HUBERT O & PATRICIA F",
@@ -6900,7 +4346,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WESTPOINT STEVENS INC",
@@ -6914,7 +4360,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WHITE DELANEY ELIZABETH BATSON",
@@ -6928,7 +4374,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WHITE GREGORY JR",
@@ -6942,7 +4388,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WHITE JONES E III",
@@ -6956,7 +4402,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WHITE KENNETH D",
@@ -6970,7 +4416,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WHITE SUZANNE GARNER WILLIAM N",
@@ -6984,7 +4430,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WHITMIRE SCOTT",
@@ -6998,7 +4444,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WIDESPREAD PROPERTIES LLC",
@@ -7012,7 +4458,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WIKE GEORGE I ETAL CONV  BALL",
@@ -7027,7 +4473,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILKES JAN L",
@@ -7041,7 +4487,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILKINSON GEORGE",
@@ -7055,7 +4501,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIAMS ADRIA",
@@ -7069,7 +4515,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIAMS CHESTER & BESSIE",
@@ -7083,7 +4529,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIAMS LAMARCO RAMONE",
@@ -7097,7 +4543,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIAMS MYRTLE LESHAW",
@@ -7111,7 +4557,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIAMS OLLIS EST",
@@ -7126,7 +4572,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIAMS PATTI A WILLIAMS RICH",
@@ -7140,7 +4586,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIS BOBBY CHARLES JR",
@@ -7155,7 +4601,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILSON ANGELA YVETTE",
@@ -7169,7 +4615,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILSON MYRA ELAINE",
@@ -7183,7 +4629,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WINN DONNA ANNETTE WINN ROBERT",
@@ -7197,7 +4643,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WOOD BARRY MACK",
@@ -7211,7 +4657,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WOODSIDE MILLS A S C CORP",
@@ -7225,7 +4671,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WRIGHT JIMMY LEE",
@@ -7239,7 +4685,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "YEARWOOD RONALD DALE",
@@ -7253,7 +4699,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "YOUNG MICHAEL",
@@ -7267,7 +4713,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ZARKADOULAS JOANN L",
@@ -7281,7 +4727,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ZBORICUA07AUGUSTA LLC",
@@ -7296,7 +4742,7 @@
         "Tax Sale",
         "High Tax Amount"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "216 BRANTFORD LLC",
@@ -7310,7 +4756,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "2501 POINSETTE LLC",
@@ -7324,7 +4770,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "4EMGR LLC",
@@ -7338,7 +4784,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "7 DEMPSEY LLC",
@@ -7352,7 +4798,7 @@
       "tags": [
         "Tax Sale"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ABERCROMBIE , ALEXANDER",
@@ -7366,7 +4812,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ALEXANDER , M L",
@@ -7380,7 +4826,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ALEXANDER , ROXIE A",
@@ -7394,7 +4840,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BARTON , JACK H",
@@ -7408,7 +4854,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BARTON , NELLE R",
@@ -7422,7 +4868,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BATSON , CORA MAE Y",
@@ -7436,7 +4882,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BIRD , ANNA",
@@ -7450,7 +4896,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BOONE , VICTOR M",
@@ -7464,7 +4910,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BRAWLEY , DOROTHEA DANIELS",
@@ -7478,7 +4924,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BROCKMAN , LOUISA A",
@@ -7492,7 +4938,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BRUMMER , L W",
@@ -7506,7 +4952,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BRUMMER , RUTH P",
@@ -7520,7 +4966,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "BYRD , ANNA",
@@ -7534,7 +4980,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "CHAPMAN , DANNY",
@@ -7548,7 +4994,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "CHAPMAN , GLENN",
@@ -7562,7 +5008,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "CHAPMAN , MICHAEL",
@@ -7576,7 +5022,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "COBB , JAMES TROY",
@@ -7590,7 +5036,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "COBB , REBA GILLESPIE",
@@ -7604,7 +5050,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "COX , BERSHEBA",
@@ -7618,7 +5064,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "COX , E C",
@@ -7632,7 +5078,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "COX , JOSEPHINE",
@@ -7646,7 +5092,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "CRAIN , E A",
@@ -7660,7 +5106,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "CRYMES , JOHN D",
@@ -7674,7 +5120,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "DAVIS , PASKAL",
@@ -7688,7 +5134,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "DILL , ELIZABETH",
@@ -7702,7 +5148,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "DILLARD , J SUSAN",
@@ -7716,7 +5162,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "EATON , ROSWELL",
@@ -7730,7 +5176,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "EDWARDS , KATHERINE",
@@ -7744,7 +5190,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "FANTL , S JOSEPH",
@@ -7758,7 +5204,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "FORRESTER , JAMES",
@@ -7772,7 +5218,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "GRIFFIN , ESTEN COOK",
@@ -7786,7 +5232,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAMBY , WILLIAM E",
@@ -7800,7 +5246,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAMILTON , DAVID",
@@ -7814,7 +5260,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAMMOND , LOU MAY CURRY",
@@ -7828,7 +5274,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HARNEY , OSWALD HOOD",
@@ -7842,7 +5288,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HARRISON , JOHN H",
@@ -7856,7 +5302,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HATCHER , A M",
@@ -7870,7 +5316,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAUBRICK , WILLIAM CHAS",
@@ -7884,7 +5330,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAWKINS , P D",
@@ -7898,7 +5344,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAYDEN , W H",
@@ -7912,7 +5358,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAYS , MARIE B",
@@ -7926,7 +5372,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HAYWOOD , WILLIE LEE",
@@ -7940,7 +5386,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HENDRICKS , GORDON J",
@@ -7954,7 +5400,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HIGHTOWER , ELIZABETH",
@@ -7968,7 +5414,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HITE , ESTELLA E",
@@ -7982,7 +5428,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HOLTZCLAW , ARCHIBALD",
@@ -7996,7 +5442,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HOWARD , S W",
@@ -8010,7 +5456,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HUMPHREYS , LOUISA J",
@@ -8024,7 +5470,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HUNGERFORD , JULIE R",
@@ -8038,7 +5484,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "HUNTER , JAMES E",
@@ -8052,7 +5498,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JACKSON , RICHARD",
@@ -8066,7 +5512,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JOERGER , ROBERT W",
@@ -8080,7 +5526,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JOERGER , SARAH",
@@ -8094,7 +5540,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JONES , ARRIE G",
@@ -8108,7 +5554,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "JUSTUS , JOSEPH",
@@ -8122,7 +5568,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "KIEFER , LENORE H",
@@ -8136,7 +5582,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MARLER , HATTIE WELCH",
@@ -8150,7 +5596,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MARSHALL , G W",
@@ -8164,7 +5610,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MAXWELL , ROBERT J JR",
@@ -8178,7 +5624,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MAYFIELD , ROBERT F",
@@ -8192,7 +5638,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCAFEE , JASON",
@@ -8206,7 +5652,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCLELLAN , MARY",
@@ -8220,7 +5666,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MCCONNELL , F C III",
@@ -8234,7 +5680,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MILLER , FANNIE COFFMAN",
@@ -8248,7 +5694,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOODY , DANIEL",
@@ -8262,7 +5708,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOODY , MARTHA",
@@ -8276,7 +5722,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MOSELY , HARRY D",
@@ -8290,7 +5736,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "MULLIS , C B",
@@ -8304,7 +5750,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NASH , EMMIE LOU",
@@ -8318,7 +5764,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "NUNNERY , RUTH ANNEMARIE",
@@ -8332,7 +5778,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "OLSON , GLADYS H",
@@ -8346,7 +5792,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PATTERSON , NANCY",
@@ -8360,7 +5806,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PATTERSON , PATRICIA",
@@ -8374,7 +5820,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PATTERSON , ROBERT RANDALL",
@@ -8388,7 +5834,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PATTERSON , RUTH",
@@ -8402,7 +5848,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "PITTMAN , WANDA",
@@ -8416,7 +5862,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROGERS , CARL C",
@@ -8430,7 +5876,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "ROSEMOND , MAGGIE",
@@ -8444,7 +5890,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SLOAN , CARROLL A",
@@ -8458,7 +5904,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SLOAN , EVELYN MUESING",
@@ -8472,7 +5918,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SLOAN , MAGGIE ATKINS",
@@ -8486,7 +5932,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH , BAYLIS",
@@ -8500,7 +5946,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SMITH , MARY A",
@@ -8514,7 +5960,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "SONNICHSON , HERLICH",
@@ -8528,7 +5974,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TALLEY , OBERDILES",
@@ -8542,7 +5988,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TAYLOR , BARTON",
@@ -8556,7 +6002,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMPSON , MARY E",
@@ -8570,7 +6016,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THOMPSON , MAY H",
@@ -8584,7 +6030,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "THURMOND , MILTON W",
@@ -8598,7 +6044,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "TURNER , MATTIE LOUISE G",
@@ -8612,7 +6058,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WALKER , SUE AZILEA",
@@ -8626,7 +6072,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WATSON , WILLIAM THOMAS JR",
@@ -8640,7 +6086,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WELCH , AUBREY L",
@@ -8654,7 +6100,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WELCH , PRIESTLEY C",
@@ -8668,7 +6114,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WELCH , WILHELMINA K",
@@ -8682,7 +6128,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WELDON , HARRY",
@@ -8696,7 +6142,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WELLS , ELIZABETH",
@@ -8710,7 +6156,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WEST , JAMES I",
@@ -8724,7 +6170,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WILLIAMSON , WILLIAM",
@@ -8738,7 +6184,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     },
     {
       "owner": "WOODSON , FRANK LELAND",
@@ -8752,7 +6198,7 @@
       "tags": [
         "Probate"
       ],
-      "generated_at": "2026-05-04T13:34:51.078959+00:00"
+      "generated_at": "2026-05-05T12:13:10.133668+00:00"
     }
   ]
 }
